@@ -28,7 +28,15 @@ O nosso App se destaca na simplicidade, facilidade de uso e na proposta de forne
 
 ## Estrutura
 
-> Como sua aplicação será estruturada? Quais telas o usuário irá interagir, e o que elas fazem? Qual é o fluxo de navegação?
+A aplicação será estruturada, inicialmente, em duas telas/abas, no qual se concentrará todas as features. Essas telas são denominadas de Lista e Carrinho, no qual o usuário poderá ver e interagir com os produtos adicionados ou selecionados para compra.
+
+- Aba Inicial (Produtos): Listview dos produtos adicionados com uma checkbox para adicionar ao carrinho. 
+- Carrinho: Listview dos produtos selecionados na tab inicial.
+- Checkbox (Tab inicial): Usado para mediar a inserção no carrinho, podendo descrever algumas caractersticas do produto (preço e quantidade) por meio de um pop-up.
+- Footer: Usado na Aba Inicial para adicionar um novo produto, similarmente utilizado no Carrinho com a diferença que no carrinho é possível adicionar diretamente sem passar pelo pop-up.
+- Sidebar: Menu escondido que é acionado apertando o action overflow icon que possui links importantes como: configurações (preferências), termos de uso e etc.
+
+> Fluxo exemplo: Inserir um novo produto na aba inicial através de um input. Dar checked no produto adicionado. Escolher a quantidade que deseja comprar com o respectivo preço unitário (pressionar OK). Ir no carrinho e verificar o preço total dos produtos. 
 
 ## Equipe e Divisão de Tarefas
 
