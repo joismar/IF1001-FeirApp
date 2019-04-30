@@ -38,6 +38,8 @@ A aplicação será estruturada, inicialmente, em duas telas/abas, no qual se co
 
 > Fluxo exemplo: Inserir um novo produto na aba inicial através de um input. Dar checked no produto adicionado. Escolher a quantidade que deseja comprar com o respectivo preço unitário (pressionar OK). Ir no carrinho e verificar o preço total dos produtos. 
 
+O mockup do projeto se encontra [aqui](https://drive.google.com/file/d/1gT7d-w-mxrgKVlOLT6VH32_x9dm0U7Sj/view?usp=sharing).
+
 ## Equipe e Divisão de Tarefas
 
 | Aluno            | Designações Principais |
