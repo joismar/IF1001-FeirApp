@@ -1,0 +1,61 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	>
+
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:background="#AD1457"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="horizontal">
+
+		<TextView
+			android:id="@+id/ord2"
+			android:layout_width="38dp"
+			android:layout_height="wrap_content"
+			android:focusable="false"
+			android:gravity="right"
+			android:paddingBottom="8dp"
+			android:paddingLeft="8dp"
+			android:paddingRight="13dp"
+			android:paddingTop="8dp"
+			android:text="1."
+			android:textColor="#FFFFFF"
+			android:textSize="14sp" />
+
+		<TextView
+			android:id="@+id/name2"
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:focusable="false"
+			android:padding="8dp"
+			android:text="Produto Número 1"
+			android:textColor="#FFFFFF"
+			android:textSize="14sp" />
+
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="right"
+			android:orientation="horizontal">
+
+			<CheckBox
+				android:id="@+id/checkbox2"
+				android:layout_width="38dp"
+				android:layout_height="wrap_content"
+				android:backgroundTint="#FF8F00"
+				android:backgroundTintMode="multiply"
+				android:focusable="false"
+				android:paddingBottom="8dp"
+				android:paddingLeft="10dp"
+				android:paddingTop="8dp"
+				android:textColor="#000000"
+				android:textSize="12sp" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

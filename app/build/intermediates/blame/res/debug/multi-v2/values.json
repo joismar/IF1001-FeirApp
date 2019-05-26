@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "51",
+                        "endOffsets": "104"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,11,7",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,332,187",
+                        "endLines": "5,13,9",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "179,479,324"
+                    },
+                    "to": {
+                        "startLines": "3,6,9",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "107,232,382",
+                        "endLines": "5,8,11",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "227,377,517"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\values-v21_values-v21.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "3,20,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,927,514",
+                        "endLines": "10,26,18",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "506,1342,919"
+                    },
+                    "to": {
+                        "startLines": "2,10,17",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,502,916",
+                        "endLines": "9,16,23",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "497,911,1315"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "51",
+                        "endOffsets": "104"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,11,7",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,332,187",
+                        "endLines": "5,13,9",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "179,479,324"
+                    },
+                    "to": {
+                        "startLines": "3,6,9",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "107,232,382",
+                        "endLines": "5,8,11",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "227,377,517"
+                    }
+                }
+            ]
+        }
+    ]
+}

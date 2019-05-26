@@ -1,0 +1,442 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	>
+	<LinearLayout
+		android:id="@+id/header"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:paddingLeft="10dp"
+		android:paddingTop="8dp"
+		android:paddingRight="10dp"
+		android:paddingBottom="8dp"
+		android:background="#FF8F00"
+		android:orientation="horizontal"
+		>
+		<TextView
+			android:id="@+id/title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="10dp"
+			android:text="@string/minha_feira"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF"
+			android:layout_gravity="center_vertical"
+			/>
+		<LinearLayout
+			android:id="@+id/linear18"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="horizontal"
+			android:gravity="right|center_vertical"
+			>
+
+			<Button
+				android:id="@+id/menu"
+				android:layout_width="35dp"
+				android:layout_height="35dp"
+				android:background="@drawable/ic_more_vert_white"
+				android:padding="8dp"
+				android:textColor="#000000"
+				android:textSize="12sp" />
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/backgroung"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:background="#880E4F"
+		android:gravity="top"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:id="@+id/tabscontent"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#FFFFFF"
+			android:elevation="6dp"
+			android:orientation="horizontal">
+
+			<LinearLayout
+				android:id="@+id/lineartab1"
+				android:layout_width="100dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:background="#F57C00"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:id="@+id/tab1adapter"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal">
+
+					<ImageView
+						android:id="@+id/imagecart"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:scaleType="center"
+						android:src="@drawable/ic_local_grocery_store_white" />
+
+					<TextView
+						android:id="@+id/tab1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:background="#F57C00"
+						android:gravity="center_horizontal|center_vertical"
+						android:paddingBottom="12dp"
+						android:paddingLeft="8dp"
+						android:paddingTop="12dp"
+						android:text="CARRINHO"
+						android:textColor="#FFFFFF"
+						android:textSize="14sp"
+						android:textStyle="bold" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/footab1"
+					android:layout_width="match_parent"
+					android:layout_height="3dp"
+					android:background="#FFFFFF"
+					android:orientation="horizontal"
+					android:padding="8dp" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/lineartab2"
+				android:layout_width="100dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:background="#F57C00"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:id="@+id/tab2adapter"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal">
+
+					<ImageView
+						android:id="@+id/imagecheck"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:alpha="0.6"
+						android:scaleType="center"
+						android:src="@drawable/ic_assignment_turned_in_white" />
+
+					<TextView
+						android:id="@+id/tab2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:alpha="0.6"
+						android:background="#F57C00"
+						android:gravity="center_horizontal|center_vertical"
+						android:paddingBottom="12dp"
+						android:paddingLeft="8dp"
+						android:paddingRight="3dp"
+						android:paddingTop="12dp"
+						android:text="LISTA DE COMPRAS"
+						android:textColor="#FFFFFF"
+						android:textSize="14sp"
+						android:textStyle="bold" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/footab2"
+					android:layout_width="match_parent"
+					android:layout_height="3dp"
+					android:background="#F57C00"
+					android:orientation="horizontal"
+					android:padding="8dp" />
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/innerscroll"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:id="@+id/tabadd"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:paddingBottom="5dp"
+				android:paddingLeft="0dp"
+				android:paddingRight="0dp">
+
+				<LinearLayout
+					android:id="@+id/linear_input1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="15dp"
+					android:background="@drawable/rndcorn"
+					android:elevation="3dp"
+					android:orientation="horizontal">
+
+					<EditText
+						android:id="@+id/nome"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						android:autoText="true"
+						android:background="@android:color/transparent"
+						android:capitalize="sentences"
+						android:gravity="left"
+						android:hint="Produto"
+						android:imeOptions="actionNext"
+						android:paddingBottom="13dp"
+						android:paddingLeft="10dp"
+						android:paddingRight="8dp"
+						android:paddingTop="13dp"
+						android:singleLine="true"
+						android:textColor="#690b3d"
+						android:textColorHint="#9E9E9E"
+						android:textSize="16sp" />
+
+					<LinearLayout
+						android:id="@+id/spacer1"
+						android:layout_width="1dp"
+						android:layout_height="match_parent"
+						android:layout_marginBottom="5dp"
+						android:layout_marginTop="5dp"
+						android:background="#F8BBD0"
+						android:orientation="vertical"
+						android:padding="8dp"></LinearLayout>
+
+					<EditText
+						android:id="@+id/preco"
+						android:layout_width="90dp"
+						android:layout_height="wrap_content"
+						android:autoLink="none"
+						android:autoText="false"
+						android:background="#FCE4EC"
+						android:hint="Preço"
+						android:imeOptions="actionNext"
+						android:inputType="numberDecimal"
+						android:lines="1"
+						android:paddingBottom="13dp"
+						android:paddingLeft="10dp"
+						android:paddingRight="8dp"
+						android:paddingTop="13dp"
+						android:textColor="#690b3d"
+						android:textColorHint="#9E9E9E"
+						android:textSize="16sp" />
+
+					<LinearLayout
+						android:id="@+id/spacer2"
+						android:layout_width="1dp"
+						android:layout_height="match_parent"
+						android:layout_marginBottom="5dp"
+						android:layout_marginTop="5dp"
+						android:background="#F8BBD0"
+						android:orientation="vertical"
+						android:padding="8dp"></LinearLayout>
+
+					<EditText
+						android:id="@+id/qtde"
+						android:layout_width="70dp"
+						android:layout_height="wrap_content"
+						android:background="@android:color/transparent"
+						android:hint="Qtde."
+						android:imeOptions="actionDone"
+						android:inputType="numberDecimal"
+						android:lines="1"
+						android:paddingBottom="13dp"
+						android:paddingLeft="10dp"
+						android:paddingRight="8dp"
+						android:paddingTop="13dp"
+						android:singleLine="true"
+						android:textColor="#690b3d"
+						android:textColorHint="#9E9E9E"
+						android:textSize="16sp" />
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linear_list1"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#AD1457"
+					android:elevation="3dp"
+					android:gravity="center_horizontal"
+					android:orientation="vertical"
+					android:paddingLeft="0dp"
+					android:paddingRight="0dp"
+					android:translationZ="3dp">
+
+					<TextView
+						android:id="@+id/warn1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:alpha="0.6"
+						android:padding="8dp"
+						android:text="Nada aqui. Adicione um novo item."
+						android:textColor="#FFFFFF"
+						android:textSize="12sp" />
+
+					<ListView
+						android:id="@+id/listview1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="13dp"
+						android:layout_marginRight="13dp"
+						android:choiceMode="none" />
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/tabshoplist"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:padding="0dp"
+				android:paddingBottom="5dp"
+				android:paddingLeft="10dp"
+				android:paddingRight="10dp">
+
+				<EditText
+					android:id="@+id/inputproduto"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="15dp"
+					android:background="@drawable/rndcorn"
+					android:elevation="3dp"
+					android:hint="Produto"
+					android:lines="1"
+					android:paddingBottom="13dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="8dp"
+					android:paddingTop="13dp"
+					android:textColor="#000000"
+					android:textColorHint="#9E9E9E"
+					android:textSize="16sp" />
+
+				<LinearLayout
+					android:id="@+id/linear_list2"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#AD1457"
+					android:elevation="3dp"
+					android:gravity="center_horizontal"
+					android:orientation="vertical"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp">
+
+					<TextView
+						android:id="@+id/warn2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:alpha="0.6"
+						android:padding="8dp"
+						android:text="Nada aqui. Adicione um novo item."
+						android:textColor="#FFFFFF"
+						android:textSize="12sp" />
+
+					<ListView
+						android:id="@+id/listview2"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:choiceMode="none" />
+				</LinearLayout>
+
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/footer"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:background="#FF8F00"
+		android:elevation="6dp"
+		android:gravity="right|center_vertical"
+		android:orientation="horizontal"
+		android:paddingLeft="15dp"
+		android:paddingRight="15dp"
+		android:translationZ="5dp">
+
+		<LinearLayout
+			android:id="@+id/linear40"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_marginLeft="5dp"
+			android:layout_weight="1"
+			android:gravity="center_vertical"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/textview6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="TOTAL"
+				android:textColor="#FFFFFF"
+				android:textSize="14sp" />
+
+			<LinearLayout
+				android:id="@+id/linear43"
+				android:layout_width="50dp"
+				android:layout_height="1dp"
+				android:background="#EF6C00"
+				android:orientation="horizontal"
+				android:padding="8dp"></LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/linear_total"
+				android:layout_width="wrap_content"
+				android:layout_height="22dp"
+				android:orientation="horizontal">
+
+				<TextView
+					android:id="@+id/textview9"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="R$"
+					android:textColor="#C2185B"
+					android:textSize="12sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/total"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="2dp"
+					android:text="0.00"
+					android:textColor="#C2185B"
+					android:textSize="16sp"
+					android:textStyle="bold" />
+			</LinearLayout>
+		</LinearLayout>
+
+		<Button
+			android:id="@+id/add2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Adicionar"
+			android:textColor="#FFFFFF"
+			android:textSize="12sp"
+			android:textStyle="bold" />
+
+		<Button
+			android:id="@+id/add"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Adicionar"
+			android:textColor="#FFFFFF"
+			android:textSize="12sp"
+			android:textStyle="bold" />
+	</LinearLayout>
+</LinearLayout>

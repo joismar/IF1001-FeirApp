@@ -1,0 +1,69 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-21:12
+INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-21:12
+INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-21:12
+INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-21:12
+INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-21:12
+INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-21:12
+INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-21:12
+	package
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:3:2-27
+		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-21:12
+		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-21:12
+		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:2:2-60
+application
+ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:4:2-20:16
+	android:label
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:6:3-24
+	android:icon
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:7:3-36
+	android:allowBackup
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:5:3-29
+	android:theme
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:8:3-34
+activity#com.app.feirapp.MainActivity
+ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:9:3-19:14
+	android:screenOrientation
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:13:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:14:4-51
+	android:configChanges
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:11:4-50
+	android:theme
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:12:4-38
+	android:name
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:10:4-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:15:4-18:20
+action#android.intent.action.MAIN
+ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:16:5-56
+	android:name
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:16:13-54
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:17:5-64
+	android:name
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:17:15-62
+uses-sdk
+INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
