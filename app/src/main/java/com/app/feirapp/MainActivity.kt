@@ -15,6 +15,14 @@ import java.text.NumberFormat
 import android.text.Editable
 import android.text.TextWatcher
 import android.widget.EditText
+import android.R.id.edit
+import android.content.SharedPreferences
+import android.preference.PreferenceManager
+import android.util.Log
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
+import kotlin.collections.ArrayList
+
 
 class MainActivity : Activity() {
 
@@ -62,13 +70,15 @@ class MainActivity : Activity() {
     private val item_list2 = ArrayList<HashMap<String, Any>>()
 
     // Array de produto para ser trocado pelos array lists genéricos acima futuramente
-    private val produtos = ArrayList<Produto>()
+    private var produtos = ArrayList<Produto>()
 
     // Declarando shared preferences
     private var feira_arq: SharedPreferences? = null
     private var item_dialog: AlertDialog.Builder? = null
     private var shop_arq: SharedPreferences? = null
     private var checks: SharedPreferences? = null
+
+    private var produtosPref: SharedPreferences? = null
 
     // Declarando data atual
     private var date = Calendar.getInstance()
@@ -117,9 +127,11 @@ class MainActivity : Activity() {
         preco!!.addTextChangedListener(NumberTextWatcher(preco!!))
 
         // Carregando arquivos
-        feira_arq = getSharedPreferences("feira.txt", Activity.MODE_PRIVATE)
-        shop_arq = getSharedPreferences("shoplist.txt", Activity.MODE_PRIVATE)
-        checks = getSharedPreferences("checks", Activity.MODE_PRIVATE)
+        feira_arq = getSharedPreferences("feira.txt", MODE_PRIVATE)
+        shop_arq = getSharedPreferences("shoplist.txt", MODE_PRIVATE)
+        checks = getSharedPreferences("checks", MODE_PRIVATE)
+
+        produtosPref = getSharedPreferences("feiraPrefs", MODE_PRIVATE)
 
         // Inicializando listener no botão de adicionar na janela do carrinho
         add!!.setOnClickListener {
@@ -127,21 +139,9 @@ class MainActivity : Activity() {
             if (nome!!.text.toString() == "" || preco!!.text.toString() == "" || qtde!!.text.toString() == "") {
                 showMessage("Há campos vazios!")
             } else {
+                /*
                 ord = ord_list.size.toDouble()
                 ord++
-
-                /* Primeiros testes com a dataclass Produto
-                run {
-                    produtos.add(Produto(
-                        nome!!.text.toString(),
-                        _removeCurrency(preco!!.text.toString()).toDouble(),
-                        qtde!!.text.toString().toInt(),
-                        qtde!!.text.toString().toInt() * _removeCurrency(preco!!.text.toString()).toString().toDouble(),
-                        false,
-                        false
-                    ))
-                }
-                */
 
                 // Adicionando hashmap por hashmap, ta uma bagunça isso aqui
                 run {
@@ -173,18 +173,34 @@ class MainActivity : Activity() {
                     _item["preco_t"] = (java.lang.Double.parseDouble(_removeCurrency(qtde!!.text.toString())) * java.lang.Double.parseDouble(_removeCurrency(preco!!.text.toString()))).toString()
                     price_t_list.add(_item)
                 }
+                */
+
+                // APPEND DE UM NOVO PRODUTO
+                produtos.add(Produto(
+                    nome!!.text.toString(),
+                    _removeCurrency(preco!!.text.toString()).toDouble(),
+                    qtde!!.text.toString().toInt(),
+                    noCarrinho = true,
+                    isSelected = false
+                    )
+                )
 
                 // Carregando preço todal
-                _load_total()
+                // _load_total()
 
-                // Atualizando lisviews1 e resetando input texts
-                (listview1!!.adapter as BaseAdapter).notifyDataSetChanged()
+                atualizarTotal()
+
+                // Atualizando lisviews e resetando input texts
+                //(listview1!!.adapter as BaseAdapter).notifyDataSetChanged()
+
                 nome!!.setText("")
                 preco!!.setText("")
                 qtde!!.setText("")
 
                 // Salvando dados no arquivo
-                _save_data(ord - 1)
+                // _save_data(ord - 1)
+
+                salvarPreferencias()
 
                 nome!!.isFocusableInTouchMode = true
                 nome!!.isFocusable = true
@@ -261,8 +277,6 @@ class MainActivity : Activity() {
                 inputproduto!!.setSelection(0)
             }
         }
-
-
     }
 
     // Método para remover a moeda e deixar como uma string para se tornar float
@@ -271,7 +285,7 @@ class MainActivity : Activity() {
     }
 
     private fun initializeLogic() {
-        _checkemptlist()
+        //_checkemptlist()
 
         // seta o que deve ou não está visivel inicialmente
         tabadd!!.visibility = View.VISIBLE
@@ -293,21 +307,32 @@ class MainActivity : Activity() {
         add!!.background.setColorFilter(Color.parseColor("#AD1457"), PorterDuff.Mode.MULTIPLY)
         add2!!.background.setColorFilter(Color.parseColor("#AD1457"), PorterDuff.Mode.MULTIPLY)
 
-        title = "Feira Fácil"
+        title = "FeirApp"
 
         date = Calendar.getInstance()
 
-        // adapta as listas
-        listview1!!.adapter = Listview1Adapter(ord_list)
+        carregarPreferencias()
+
+        listview1!!.adapter = CarrinhoAdapter(produtos)
         (listview1!!.adapter as BaseAdapter).notifyDataSetChanged()
+
+        // adapta as listas
+        // listview1!!.adapter = Listview1Adapter(ord_list)
+        // (listview1!!.adapter as BaseAdapter).notifyDataSetChanged()
+
         listview2!!.adapter = Listview2Adapter(ord_list2)
         (listview2!!.adapter as BaseAdapter).notifyDataSetChanged()
-        _load()
+
+
+
+        atualizarTotal()
+
+        // _load()
         _load2()
-        _load_total()
+        // _load_total()
     }
 
-    // método recursivo pra carregar o arquivo
+    /* método recursivo pra carregar o arquivo
     private fun _load() {
         ord++
         if (feira_arq!!.getString((ord - 1).toLong().toString(), "") == "") {
@@ -316,6 +341,34 @@ class MainActivity : Activity() {
             (listview1!!.adapter as BaseAdapter).notifyDataSetChanged()
             _load()
         }
+    }
+
+    private fun carregar() {
+        if (produtosPref!!.getString((ord - 1).toLong().toString(), "") == "") {
+        } else {
+            _split(feira_arq!!.getString((ord - 1).toLong().toString(), "")!!)
+            (listview1!!.adapter as BaseAdapter).notifyDataSetChanged()
+            _load()
+        }
+    } */
+
+    private fun salvarPreferencias() {
+        val prefsEditor = produtosPref?.edit()
+        val gson = Gson()
+        val json = gson.toJson(produtos) //tasks is an ArrayList instance variable
+        Log.v("JSON Save", json)
+        prefsEditor?.putString("carrinho", json)
+        prefsEditor?.apply()
+        Log.v("Array List", produtos.toString())
+    }
+
+    private fun carregarPreferencias() {
+        val gson = Gson()
+        val json = produtosPref?.getString("carrinho", "")
+        Log.v("JSON Load", json)
+        val type = object : TypeToken<ArrayList<Produto>>() {}.type
+        produtos = gson.fromJson(json, type) ?: produtos
+        Log.v(type.toString(), produtos.toString())
     }
 
     // método pra inserir texto do arquivo nas hashmaps
@@ -360,6 +413,13 @@ class MainActivity : Activity() {
         _checkemptlist()
     }
 
+    // NOVO METODO CARREGAR TOTAL
+    private fun atualizarTotal() {
+        val precoTotal: Double = produtos.sumByDouble{ it.getTotal() }
+        total!!.text = DecimalFormat("#,##0,00").format(precoTotal * 100)
+        //_checkemptlist()
+    }
+
     // método pra atualizar arquivo em caso de delete
     private fun _update(_index: Double) {
         if (ord_list.size.toLong().toString() == "1") {
@@ -378,6 +438,15 @@ class MainActivity : Activity() {
         feira_arq!!.edit().putString(_i.toLong().toString(),
                 ord_list[_i.toInt()]["ord"].toString() + (";" + (item_list[_i.toInt()]["item"].toString() + (";" + (qtde_list[_i.toInt()]["qtde"].toString() + (";" + (price_list[_i.toInt()]["preco"].toString() + (";" + price_t_list[_i.toInt()]["preco_t"].toString())))))))).apply()
     }
+
+    /* SALVANDO ITEM NO ARQUIVO
+    private fun salvarItem(i: Int){
+        val produtosPref = this.getSharedPreferences("produtos", Context.MODE_PRIVATE)
+        with(produtosPref.edit()) {
+            putString(i.toString(), produtos[i].nome + produtos[i].preco.toString() + produtos[i].qtde.toString() + produtos[i].noCarrinho.toString() + produtos[i].noCarrinho.toString())
+            apply()
+        }
+    } */
 
     // método pra salvar o carrinho
     private fun _save_feira() {
@@ -546,7 +615,7 @@ class MainActivity : Activity() {
         }
     }
 
-    // adapter do carrinho
+    /* adapter do carrinho
     inner class Listview1Adapter(internal var _data: ArrayList<HashMap<String, Any>>) : BaseAdapter() {
 
         override fun getCount(): Int {
@@ -582,6 +651,45 @@ class MainActivity : Activity() {
             preco_t.text = DecimalFormat("#,##0,00").format(java.lang.Double.parseDouble(price_t_list[_position]["preco_t"].toString()) * 100)
 
             return _v
+        }
+    } */
+
+    inner class CarrinhoAdapter(var data: ArrayList<Produto>) : BaseAdapter() {
+
+        override fun getCount(): Int {
+            return data.size
+        }
+
+        override fun getItem(i: Int): Produto {
+            return data[i]
+        }
+
+        override fun getItemId(i: Int): Long {
+            return i.toLong()
+        }
+
+        override fun getView(position: Int, view: View?, viewGroup: ViewGroup): View {
+            val inflater = baseContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+            var v: View? = view
+            if (v == null) {
+                v = inflater.inflate(R.layout.item_list, null)
+            }
+            val linear1 = v!!.findViewById(R.id.linear1) as LinearLayout
+            val item = v.findViewById(R.id.item) as TextView
+            val linear2 = v.findViewById(R.id.linear2) as LinearLayout
+            val linear3 = v.findViewById(R.id.linear3) as LinearLayout
+            val preco_t = v.findViewById(R.id.preco_t) as TextView
+            val textview2 = v.findViewById(R.id.textview2) as TextView
+            val preco = v.findViewById(R.id.preco) as TextView
+
+            item.text = produtos[position].nome + " (" + produtos[position].qtde + ")"
+            Log.v("Item inserido", produtos[position].nome + " (" + produtos[position].qtde + ")")
+            preco.text = DecimalFormat("#,##0,00").format(produtos[position].preco * 100)
+            Log.v("Preco inserido", produtos[position].preco.toString())
+            preco_t.text = DecimalFormat("#,##0,00").format(produtos[position].getTotal() * 100)
+            Log.v("Total inserido", produtos[position].getTotal().toString())
+
+            return v
         }
     }
 
