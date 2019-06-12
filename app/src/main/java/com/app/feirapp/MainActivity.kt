@@ -127,55 +127,19 @@ class MainActivity : Activity() {
         preco!!.addTextChangedListener(NumberTextWatcher(preco!!))
 
         // Carregando arquivos
-        feira_arq = getSharedPreferences("feira.txt", MODE_PRIVATE)
         shop_arq = getSharedPreferences("shoplist.txt", MODE_PRIVATE)
         checks = getSharedPreferences("checks", MODE_PRIVATE)
 
         produtosPref = getSharedPreferences("feiraPrefs", MODE_PRIVATE)
 
-        // Inicializando listener no botão de adicionar na janela do carrinho
+        // BOTÃO ADD NO CARRINHO
         add!!.setOnClickListener {
-            // Se "nome" estiver vazio, dar um alerta //
+            // VERIFICA SE OS CAMPOS ESTÃO VAZIOS
             if (nome!!.text.toString() == "" || preco!!.text.toString() == "" || qtde!!.text.toString() == "") {
                 showMessage("Há campos vazios!")
             } else {
-                /*
-                ord = ord_list.size.toDouble()
-                ord++
 
-                // Adicionando hashmap por hashmap, ta uma bagunça isso aqui
-                run {
-                    val _item = HashMap<String, Any>()
-                    _item["ord"] = ord.toLong().toString() + "."
-                    ord_list.add(_item)
-                }
-
-                run {
-                    val _item = HashMap<String, Any>()
-                    _item["item"] = nome!!.text.toString()
-                    item_list.add(_item)
-                }
-
-                run {
-                    val _item = HashMap<String, Any>()
-                    _item["qtde"] = qtde!!.text.toString()
-                    qtde_list.add(_item)
-                }
-
-                run {
-                    val _item = HashMap<String, Any>()
-                    _item["preco"] = _removeCurrency(preco!!.text.toString())
-                    price_list.add(_item)
-                }
-
-                run {
-                    val _item = HashMap<String, Any>()
-                    _item["preco_t"] = (java.lang.Double.parseDouble(_removeCurrency(qtde!!.text.toString())) * java.lang.Double.parseDouble(_removeCurrency(preco!!.text.toString()))).toString()
-                    price_t_list.add(_item)
-                }
-                */
-
-                // APPEND DE UM NOVO PRODUTO
+                // ADICIONA UM NOVO PRODUTO NO CARRINHO
                 produtos.add(Produto(
                     nome!!.text.toString(),
                     _removeCurrency(preco!!.text.toString()).toDouble(),
@@ -185,21 +149,15 @@ class MainActivity : Activity() {
                     )
                 )
 
-                // Carregando preço todal
-                // _load_total()
-
+                // ATUALIZA PREÇO TOTAL
                 atualizarTotal()
 
-                // Atualizando lisviews e resetando input texts
-                //(listview1!!.adapter as BaseAdapter).notifyDataSetChanged()
 
                 nome!!.setText("")
                 preco!!.setText("")
                 qtde!!.setText("")
 
                 // Salvando dados no arquivo
-                // _save_data(ord - 1)
-
                 salvarPreferencias()
 
                 nome!!.isFocusableInTouchMode = true
@@ -269,7 +227,7 @@ class MainActivity : Activity() {
                 (listview2!!.adapter as BaseAdapter).notifyDataSetChanged()
                 inputproduto!!.setText("")
                 _save_data2(ord2 - 1)
-                _checkemptlist()
+                checaListaVazia()
 
                 inputproduto!!.isFocusableInTouchMode = true
                 inputproduto!!.isFocusable = true
@@ -285,7 +243,7 @@ class MainActivity : Activity() {
     }
 
     private fun initializeLogic() {
-        //_checkemptlist()
+        checaListaVazia()
 
         // seta o que deve ou não está visivel inicialmente
         tabadd!!.visibility = View.VISIBLE
@@ -316,42 +274,16 @@ class MainActivity : Activity() {
         listview1!!.adapter = CarrinhoAdapter(produtos)
         (listview1!!.adapter as BaseAdapter).notifyDataSetChanged()
 
-        // adapta as listas
-        // listview1!!.adapter = Listview1Adapter(ord_list)
-        // (listview1!!.adapter as BaseAdapter).notifyDataSetChanged()
-
         listview2!!.adapter = Listview2Adapter(ord_list2)
         (listview2!!.adapter as BaseAdapter).notifyDataSetChanged()
 
-
-
         atualizarTotal()
 
-        // _load()
         _load2()
-        // _load_total()
+
     }
 
-    /* método recursivo pra carregar o arquivo
-    private fun _load() {
-        ord++
-        if (feira_arq!!.getString((ord - 1).toLong().toString(), "") == "") {
-        } else {
-            _split(feira_arq!!.getString((ord - 1).toLong().toString(), "")!!)
-            (listview1!!.adapter as BaseAdapter).notifyDataSetChanged()
-            _load()
-        }
-    }
-
-    private fun carregar() {
-        if (produtosPref!!.getString((ord - 1).toLong().toString(), "") == "") {
-        } else {
-            _split(feira_arq!!.getString((ord - 1).toLong().toString(), "")!!)
-            (listview1!!.adapter as BaseAdapter).notifyDataSetChanged()
-            _load()
-        }
-    } */
-
+    // SALVA PRODUTOS EM JSON
     private fun salvarPreferencias() {
         val prefsEditor = produtosPref?.edit()
         val gson = Gson()
@@ -362,6 +294,7 @@ class MainActivity : Activity() {
         Log.v("Array List", produtos.toString())
     }
 
+    // RECUPERA PRODUTOS DO ARQUIVO
     private fun carregarPreferencias() {
         val gson = Gson()
         val json = produtosPref?.getString("carrinho", "")
@@ -410,14 +343,14 @@ class MainActivity : Activity() {
             n2++
         }
         total!!.text = DecimalFormat("#,##0,00").format(n_total * 100)
-        _checkemptlist()
+        checaListaVazia()
     }
 
     // NOVO METODO CARREGAR TOTAL
     private fun atualizarTotal() {
         val precoTotal: Double = produtos.sumByDouble{ it.getTotal() }
         total!!.text = DecimalFormat("#,##0,00").format(precoTotal * 100)
-        //_checkemptlist()
+        checaListaVazia()
     }
 
     // método pra atualizar arquivo em caso de delete
@@ -438,15 +371,6 @@ class MainActivity : Activity() {
         feira_arq!!.edit().putString(_i.toLong().toString(),
                 ord_list[_i.toInt()]["ord"].toString() + (";" + (item_list[_i.toInt()]["item"].toString() + (";" + (qtde_list[_i.toInt()]["qtde"].toString() + (";" + (price_list[_i.toInt()]["preco"].toString() + (";" + price_t_list[_i.toInt()]["preco_t"].toString())))))))).apply()
     }
-
-    /* SALVANDO ITEM NO ARQUIVO
-    private fun salvarItem(i: Int){
-        val produtosPref = this.getSharedPreferences("produtos", Context.MODE_PRIVATE)
-        with(produtosPref.edit()) {
-            putString(i.toString(), produtos[i].nome + produtos[i].preco.toString() + produtos[i].qtde.toString() + produtos[i].noCarrinho.toString() + produtos[i].noCarrinho.toString())
-            apply()
-        }
-    } */
 
     // método pra salvar o carrinho
     private fun _save_feira() {
@@ -601,9 +525,8 @@ class MainActivity : Activity() {
         imagecheck!!.alpha = 1.toFloat()
     }
 
-    // checa se a lista ta vazia
-    private fun _checkemptlist() {
-        if (ord_list.size == 0) {
+    private fun checaListaVazia() {
+        if (produtos.size == 0) {
             warn1!!.visibility = View.VISIBLE
         } else {
             warn1!!.visibility = View.GONE
@@ -614,45 +537,6 @@ class MainActivity : Activity() {
             warn2!!.visibility = View.GONE
         }
     }
-
-    /* adapter do carrinho
-    inner class Listview1Adapter(internal var _data: ArrayList<HashMap<String, Any>>) : BaseAdapter() {
-
-        override fun getCount(): Int {
-            return _data.size
-        }
-
-        override fun getItem(_i: Int): HashMap<String, Any> {
-            return _data[_i]
-        }
-
-        override fun getItemId(_i: Int): Long {
-            return _i.toLong()
-        }
-
-        override fun getView(_position: Int, _view: View?, _viewGroup: ViewGroup): View {
-            val _inflater = baseContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
-            var _v: View? = _view
-            if (_v == null) {
-                _v = _inflater.inflate(R.layout.item_list, null)
-            }
-            val linear1 = _v!!.findViewById(R.id.linear1) as LinearLayout
-            val item = _v.findViewById(R.id.item) as TextView
-            val linear2 = _v.findViewById(R.id.linear2) as LinearLayout
-            val linear3 = _v.findViewById(R.id.linear3) as LinearLayout
-            // val linear4 = _v.findViewById(R.id.linear4) as LinearLayout
-            // val textview1 = _v.findViewById(R.id.textview1) as TextView
-            val preco_t = _v.findViewById(R.id.preco_t) as TextView
-            val textview2 = _v.findViewById(R.id.textview2) as TextView
-            val preco = _v.findViewById(R.id.preco) as TextView
-
-            item.text = item_list[_position]["item"].toString() + (" (" + qtde_list[_position]["qtde"].toString() + ")")
-            preco.text = DecimalFormat("#,##0,00").format(java.lang.Double.parseDouble(price_list[_position]["preco"].toString()) * 100)
-            preco_t.text = DecimalFormat("#,##0,00").format(java.lang.Double.parseDouble(price_t_list[_position]["preco_t"].toString()) * 100)
-
-            return _v
-        }
-    } */
 
     inner class CarrinhoAdapter(var data: ArrayList<Produto>) : BaseAdapter() {
 
