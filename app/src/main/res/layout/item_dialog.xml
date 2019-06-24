@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E91E63"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="O que deseja fazer?"
+            android:textColor="#FFFCFC"
+            android:textColorHighlight="#FFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/botao_remover"
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REMOVER ITEM" />
+
+        <Button
+            android:id="@+id/botao_editar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EDITAR ITEM" />
+
+        <Button
+            android:id="@+id/botao_cancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CANCELAR" />
+    </LinearLayout>
+</RelativeLayout>

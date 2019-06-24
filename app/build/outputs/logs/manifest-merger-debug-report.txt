@@ -1,62 +1,141 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-21:12
-INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-21:12
-INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-21:12
-INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-21:12
-INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-21:12
-INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-21:12
-INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-21:12
+ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-23:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\7c45b23b1472da25ac755ec495f71fe1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\0eb23bcd9b54ee3e412ca902727023e1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f081d286e571630821dbf3c04b4ebf0b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\4dd8ed812365d63bb234de651ad2b885\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\d34784554f7d07f929410ba147bf881d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\624e62db23171434e684e2e50517c8a0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\62ee35ef12ef8b79d19c22450af29ea5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cbde67910453a9bfe8a39942052c972d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f56dfefe20b73a70a2e138f728f46856\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\280550ef6d3eda99b187f8d0ffea37d3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\d0e2e317859c8c5dcc7b71ecf875ca36\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\4e8915bdd25b7ecabdca94dfee5e394a\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\c5da4adb60bd885db53cce142633d345\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\dbce983e84159465555f0830006fb998\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\808e420f89b422439dec1fe17c19d0d4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\7160c53e6f4059b2464da1599ede54e3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\7725f5f4ed37a3d8d8eb91972edf3993\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\99e41a60a6daee5539247479bd9b7062\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\c23be52b0f84778a95f8a11e7c2ae131\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\3d607d3bf2cde8b5f658fee41afc0977\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\47d15ab3df6462f8d99a812adcb4e101\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\0875fc4febfbbd459db03c08b06c6e00\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cb12fc46fbb38ddf4ecb3f4fc4a25e1c\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-23:12
 	package
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:3:2-27
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:4:2-27
 		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-21:12
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-23:12
 		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:3:2-48
 	android:versionCode
 		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-21:12
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-23:12
 		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:2:2-60
 application
-ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:4:2-20:16
+ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:5:2-22:16
+MERGED from [androidx.core:core:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\4e8915bdd25b7ecabdca94dfee5e394a\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\4e8915bdd25b7ecabdca94dfee5e394a\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\c5da4adb60bd885db53cce142633d345\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\c5da4adb60bd885db53cce142633d345\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\4e8915bdd25b7ecabdca94dfee5e394a\AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:6:3-24
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:7:3-24
 	android:icon
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:7:3-36
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:8:3-36
 	android:allowBackup
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:5:3-29
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:6:3-30
 	android:theme
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:8:3-34
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:9:3-34
+	tools:replace
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:10:3-38
 activity#com.app.feirapp.MainActivity
-ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:9:3-19:14
+ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:11:3-21:14
 	android:screenOrientation
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:13:4-40
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:15:4-40
 	android:windowSoftInputMode
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:14:4-51
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:16:4-51
 	android:configChanges
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:11:4-50
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:13:4-50
 	android:theme
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:12:4-38
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:14:4-38
 	android:name
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:10:4-47
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:12:4-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:15:4-18:20
+ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:17:4-20:20
 action#android.intent.action.MAIN
-ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:16:5-56
+ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:18:5-56
 	android:name
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:16:13-54
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:18:13-54
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:17:5-64
+ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:19:5-64
 	android:name
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:17:15-62
+		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:19:15-62
 uses-sdk
 INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\7c45b23b1472da25ac755ec495f71fe1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\7c45b23b1472da25ac755ec495f71fe1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\0eb23bcd9b54ee3e412ca902727023e1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\0eb23bcd9b54ee3e412ca902727023e1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f081d286e571630821dbf3c04b4ebf0b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f081d286e571630821dbf3c04b4ebf0b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\4dd8ed812365d63bb234de651ad2b885\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\4dd8ed812365d63bb234de651ad2b885\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\d34784554f7d07f929410ba147bf881d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\d34784554f7d07f929410ba147bf881d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\624e62db23171434e684e2e50517c8a0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\624e62db23171434e684e2e50517c8a0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\62ee35ef12ef8b79d19c22450af29ea5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\62ee35ef12ef8b79d19c22450af29ea5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cbde67910453a9bfe8a39942052c972d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cbde67910453a9bfe8a39942052c972d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f56dfefe20b73a70a2e138f728f46856\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f56dfefe20b73a70a2e138f728f46856\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\280550ef6d3eda99b187f8d0ffea37d3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\280550ef6d3eda99b187f8d0ffea37d3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\d0e2e317859c8c5dcc7b71ecf875ca36\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\d0e2e317859c8c5dcc7b71ecf875ca36\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\4e8915bdd25b7ecabdca94dfee5e394a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\4e8915bdd25b7ecabdca94dfee5e394a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\c5da4adb60bd885db53cce142633d345\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\c5da4adb60bd885db53cce142633d345\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\dbce983e84159465555f0830006fb998\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\dbce983e84159465555f0830006fb998\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\808e420f89b422439dec1fe17c19d0d4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\808e420f89b422439dec1fe17c19d0d4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\7160c53e6f4059b2464da1599ede54e3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\7160c53e6f4059b2464da1599ede54e3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\7725f5f4ed37a3d8d8eb91972edf3993\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\7725f5f4ed37a3d8d8eb91972edf3993\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\99e41a60a6daee5539247479bd9b7062\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\99e41a60a6daee5539247479bd9b7062\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\c23be52b0f84778a95f8a11e7c2ae131\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\c23be52b0f84778a95f8a11e7c2ae131\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\3d607d3bf2cde8b5f658fee41afc0977\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\3d607d3bf2cde8b5f658fee41afc0977\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\47d15ab3df6462f8d99a812adcb4e101\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\47d15ab3df6462f8d99a812adcb4e101\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\0875fc4febfbbd459db03c08b06c6e00\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\0875fc4febfbbd459db03c08b06c6e00\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cb12fc46fbb38ddf4ecb3f4fc4a25e1c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cb12fc46fbb38ddf4ecb3f4fc4a25e1c\AndroidManifest.xml:20:5-44
 INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion

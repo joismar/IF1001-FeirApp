@@ -1,42 +1,166 @@
 [
     {
-        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_assignment_turned_in_white.png.flat",
-        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\drawable-xhdpi\\ic_assignment_turned_in_white.png"
-    },
-    {
-        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_more_vert_white.png.flat",
-        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\drawable-xhdpi\\ic_more_vert_white.png"
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\layout_shoplist.xml.flat",
         "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\layout\\shoplist.xml"
     },
     {
-        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
-        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\layout\\main.xml"
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_app_icon.png.flat",
-        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\drawable-xhdpi\\app_icon.png"
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_default_image.png.flat",
-        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\drawable-xhdpi\\default_image.png"
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_dialog.xml.flat",
+        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\layout\\item_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_assignment_turned_in_white.png.flat",
+        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\drawable-xhdpi\\ic_assignment_turned_in_white.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_more_vert_white.png.flat",
+        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\drawable-xhdpi\\ic_more_vert_white.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_add.png.flat",
+        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\drawable-xhdpi\\add.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rndcorn.xml.flat",
         "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\drawable\\rndcorn.xml"
     },
     {
-        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_local_grocery_store_white.png.flat",
-        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\drawable-xhdpi\\ic_local_grocery_store_white.png"
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_list.xml.flat",
-        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\layout\\item_list.xml"
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_minus.png.flat",
+        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\drawable-xhdpi\\minus.png"
     },
     {
         "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\layout_check_dialog.xml.flat",
         "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\layout\\check_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rndbutton.xml.flat",
+        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\drawable\\rndbutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_share.png.flat",
+        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\drawable-xhdpi\\share.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_app_icon.png.flat",
+        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\drawable-xhdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\layout_carrinholista.xml.flat",
+        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\layout\\carrinholista.xml"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_default_image.png.flat",
+        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\drawable-xhdpi\\default_image.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_local_grocery_store_white.png.flat",
+        "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\drawable-xhdpi\\ic_local_grocery_store_white.png"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\4e8915bdd25b7ecabdca94dfee5e394a\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
     }
 ]
