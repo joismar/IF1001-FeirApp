@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "682326110078",
+    "firebase_url": "https://if1001-feirapp.firebaseio.com",
+    "project_id": "if1001-feirapp",
+    "storage_bucket": "if1001-feirapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682326110078:android:32f9cde0354fb8af",
+        "android_client_info": {
+          "package_name": "com.app.feira"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682326110078-ft4b8pauq7402mfouc776lsa3rkuvu6a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.feira",
+            "certificate_hash": "f14d145a196699999d73f9ef62f06ca318b81413"
+          }
+        },
+        {
+          "client_id": "682326110078-9sr18a77jcr9llu6nos2t55j7q2fv4ms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV2XNgWKmncfjQqNRNPNsLMJ9X67ez9Mw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682326110078-9sr18a77jcr9llu6nos2t55j7q2fv4ms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
