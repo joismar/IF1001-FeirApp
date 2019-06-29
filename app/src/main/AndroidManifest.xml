@@ -6,7 +6,7 @@
 		android:allowBackup="false"
 		android:label="Feira"
 		android:icon="@drawable/app_icon"
-		android:theme="@style/AppTheme"
+		android:theme="@style/NoActionBar"
 		tools:replace="android:allowBackup">
 		<activity
 			android:name="com.app.feirapp.MainActivity"

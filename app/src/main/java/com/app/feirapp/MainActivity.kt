@@ -21,10 +21,12 @@ import kotlinx.android.synthetic.main.main.*
 import kotlin.collections.ArrayList
 import android.view.inputmethod.EditorInfo
 import android.widget.TextView
+import android.widget.Toast
+import android.view.View.OnFocusChangeListener
+import android.graphics.Typeface
+import androidx.appcompat.app.AppCompatActivity
 
-
-
-class MainActivity : Activity() {
+class MainActivity : AppCompatActivity() {
 
     // Declarando variaveis de layout
     private var menu: Button? = null
@@ -51,7 +53,6 @@ class MainActivity : Activity() {
 
     // Declarando shared preferences
     private var item_dialog: AlertDialog.Builder? = null
-    private var checks: SharedPreferences? = null
 
     private var produtosPref: SharedPreferences? = null
 
@@ -109,14 +110,30 @@ class MainActivity : Activity() {
         comprasLista = findViewById<View>(R.id.listaView) as RecyclerView
         comprasLista!!.layoutManager = LinearLayoutManager(this)
 
-        input_qtde!!.setText("1")
-        //input_preco.setText("R$0,00")
+        input_preco.onFocusChangeListener = OnFocusChangeListener { _, hasFocus ->
+            if (hasFocus) {
+                input_preco.setText("R$0,00")
+                input_preco.setSelection(input_preco.text.length)
+            }
+        }
+
+        input_qtde.onFocusChangeListener = OnFocusChangeListener { _, hasFocus ->
+                input_qtde.hint = "1"
+                input_qtde.setSelection(input_qtde.text.length)
+        }
+
+        limiteView.setOnClickListener {
+            TODO()
+        }
 
         input_qtde!!.setOnEditorActionListener { v, actionId, event ->
             if(actionId == EditorInfo.IME_ACTION_DONE){
-                if (input_nome!!.text.toString() == "" || input_preco!!.text.toString() == "" || input_qtde!!.text.toString() == "") {
+                if (input_nome!!.text.toString() == "" || input_preco!!.text.toString() == "") {
                     showMessage("Há campos vazios!")
                 } else {
+                    if (input_qtde!!.text.toString() == "") {
+                        input_qtde!!.setText("1")
+                    }
 
                     // ADICIONA UM NOVO PRODUTO NO CARRINHO
                     produtosArrayList.add(Produto(
@@ -133,6 +150,7 @@ class MainActivity : Activity() {
                     input_nome!!.setText("")
                     input_preco!!.setText("")
                     input_qtde!!.setText("")
+                    input_qtde.hint = "Qtde."
 
                     // Salvando dados no arquivo
                     salvarPreferencias()
@@ -217,6 +235,8 @@ class MainActivity : Activity() {
                 noCarrinho = true,
                 isSelected = false
         ))
+
+        atualizarTotal()
     }
 
     // Método para remover a moeda e deixar como uma string para se tornar float
@@ -228,10 +248,7 @@ class MainActivity : Activity() {
         checaListaVazia()
 
         // seta o que deve ou não está visivel inicialmente
-        tabadd!!.visibility = View.VISIBLE
-        tabshoplist!!.visibility = View.GONE
-        footer!!.visibility = View.VISIBLE
-        footer2!!.visibility = View.GONE
+        _tab1click()
         tab1adapter!!.setOnClickListener { _tab1click() }
         tab2adapter!!.setOnClickListener { _tab2click() }
         carrinhoLista!!.isVerticalScrollBarEnabled = false
@@ -252,9 +269,6 @@ class MainActivity : Activity() {
         date = Calendar.getInstance()
 
         carregarPreferencias()
-
-        //listview1!!.adapter = CarrinhoAdapter(produtosArrayList)
-        //(listview1!!.adapter as BaseAdapter).notifyDataSetChanged()
 
         carrinhoLista?.adapter = CarrinhoAdapter(produtosArrayList, this)
 
@@ -310,117 +324,11 @@ class MainActivity : Activity() {
         atualizarTotal()
     }
 
-    /*
-
     // método pra salvar o carrinho
-    private fun _save_feira() {
-        date = Calendar.getInstance()
-        filename = "feira_" + SimpleDateFormat("yyyy_MM_dd_HH_mm", Locale.US).format(date.time) + ".txt"
-        for (_repeat10 in 0 until ord_list.size) {
-            stringao = stringao + feira_arq!!.getString(key.toLong().toString(), "") + "\n"
-            key++
-        }
-        //code by zTioLuh
-        try {
-            val myFile = File("$externalCacheDir/$filename")
-            myFile.createNewFile()
-            val fOut = FileOutputStream(myFile)
-            val myOutWriter = OutputStreamWriter(fOut)
-            myOutWriter.append(stringao)
-            myOutWriter.close()
-            fOut.close()
-            Toast.makeText(baseContext, "Salvo em /sdcard/Android/data/br.feira/cache/$filename", Toast.LENGTH_SHORT).show()
-        } catch (e: Exception) {
-            Toast.makeText(baseContext, e.message, Toast.LENGTH_SHORT).show()
-        }
-
+    private fun salvarFeira() {
+        TODO()
     }
 
-    // método pra salvar dados da lista de compras
-    private fun _save_data2(_key: Double) {
-        shop_arq!!.edit().putString(_key.toLong().toString(), item_list2[_key.toInt()]["item"].toString()).apply()
-    }
-
-    // método pra carregar dados para lista de compras
-    private fun _load2() {
-        ord2++
-        if (shop_arq!!.getString((ord2 - 1).toLong().toString(), "") == "") {
-
-        } else {
-            run {
-                val _item = HashMap<String, Any>()
-                _item["ord"] = ord2.toLong().toString() + "."
-                ord_list2.add(_item)
-            }
-
-            run {
-                val _item = HashMap<String, Any>()
-                _item["item"] = shop_arq!!.getString((ord2 - 1).toLong().toString(), "")
-                item_list2.add(_item)
-            }
-
-            _load2()
-        }
-    }
-
-    // método pra deletar itens
-    private fun _del_item(_pos: Double) {
-        showMessage("Item " + (item_list[_pos.toInt()]["item"].toString() + " deletado!"))
-        ord_list.removeAt(ord_list.size - 1)
-        item_list.removeAt(_pos.toInt())
-        qtde_list.removeAt(_pos.toInt())
-        price_list.removeAt(_pos.toInt())
-        price_t_list.removeAt(_pos.toInt())
-        (listview1!!.adapter as BaseAdapter).notifyDataSetChanged()
-        feira_arq!!.edit().remove(ord_list.size.toLong().toString()).apply()
-        _update(_pos)
-        atualizarTotal()
-    }
-
-    // método pra adicionar da lista de compras pro carrinho
-    private fun _addtocart(_pos: Double, _preco: String, _qtde: String) {
-        if (_preco == "" || _qtde == "") {
-            showMessage("Há campos vazios!")
-        } else {
-            ord = ord_list.size.toDouble()
-            ord++
-            run {
-                val _item = HashMap<String, Any>()
-                _item["ord"] = ord.toLong().toString() + "."
-                ord_list.add(_item)
-            }
-
-            run {
-                val _item = HashMap<String, Any>()
-                _item["item"] = item_list2[_pos.toInt()]["item"].toString()
-                item_list.add(_item)
-            }
-
-            run {
-                val _item = HashMap<String, Any>()
-                _item["qtde"] = _qtde
-                qtde_list.add(_item)
-            }
-
-            run {
-                val _item = HashMap<String, Any>()
-                _item["preco"] = _preco
-                price_list.add(_item)
-            }
-
-            run {
-                val _item = HashMap<String, Any>()
-                _item["preco_t"] = (java.lang.Double.parseDouble(_qtde) * java.lang.Double.parseDouble(_preco)).toString()
-                price_t_list.add(_item)
-            }
-
-            atualizarTotal()
-            (listview1!!.adapter as BaseAdapter).notifyDataSetChanged()
-            _save_data(ord - 1)
-            showMessage("Adicionado ao carrinho!")
-        }
-    }
-    */
     // clique na tab carrinho
     private fun _tab1click() {
         tabadd!!.visibility = View.VISIBLE
@@ -433,9 +341,6 @@ class MainActivity : Activity() {
         tab2!!.alpha = 0.6.toFloat()
         imagecart!!.alpha = 1.toFloat()
         imagecheck!!.alpha = 0.6.toFloat()
-        if (produtosArrayList.size != 0) {
-            totalview!!.visibility = View.VISIBLE
-        }
     }
 
     // clique na tab lista de compras
@@ -450,20 +355,15 @@ class MainActivity : Activity() {
         tab1!!.alpha = 0.6.toFloat()
         imagecart!!.alpha = 0.6.toFloat()
         imagecheck!!.alpha = 1.toFloat()
-        totalview!!.visibility = View.GONE
     }
 
     private fun checaListaVazia() {
         if (produtosArrayList.size == 0) {
             warn1!!.visibility = View.VISIBLE
             linear_list1!!.gravity = Gravity.CENTER
-            totalview!!.visibility = View.GONE
         } else {
             warn1!!.visibility = View.GONE
             linear_list1!!.gravity = Gravity.CENTER_HORIZONTAL
-            if (tabadd!!.visibility == View.VISIBLE) {
-                totalview!!.visibility = View.VISIBLE
-            }
         }
         if (listaArrayList.size == 0) {
             warn2!!.visibility = View.VISIBLE
@@ -473,163 +373,7 @@ class MainActivity : Activity() {
             linear_list2!!.gravity = Gravity.CENTER_HORIZONTAL
         }
     }
-    /*
-    inner class CarrinhoAdapter(private val produtosArrayList: ArrayList<Produto>) : RecyclerView.Adapter<CarrinhoAdapter.CarrinhoViewHolder>() {
 
-        inner class CarrinhoViewHolder(val carrinhoView: View) : RecyclerView.ViewHolder(carrinhoView) {
-
-            init {
-            }
-
-            fun dialog(produtosArrayList: ArrayList<Produto>, position: Int, adapter: CarrinhoAdapter) {
-                carrinhoView.setOnClickListener {
-                    val dialog = AlertDialog.Builder(itemView.context)
-
-                    dialog.setTitle("O que deseja fazer?")
-                    dialog.setPositiveButton("Deletar Item") { _, _ ->
-                        Log.d("Produtos: ", produtosArrayList.toString())
-                        deletaProduto(position, adapter)
-                    }
-                    dialog.setNegativeButton("Cancelar") { _, _ -> }
-                    dialog.create().show()
-                }
-            }
-        }
-
-        override fun onCreateViewHolder(parent: ViewGroup, type: Int): CarrinhoViewHolder {
-            val v = LayoutInflater.from(parent.context)
-                    .inflate(R.layout.carrinholista, parent, false)
-            return CarrinhoViewHolder(v)
-        }
-
-        override fun onBindViewHolder(holder: CarrinhoViewHolder, position: Int) {
-            val produtoModel = produtosArrayList[position]
-            (holder.carrinhoView.findViewById(R.id.produto_nome) as TextView).text = produtoModel.nome
-            (holder.carrinhoView.findViewById(R.id.produto_qtde) as TextView).text = "(%s)".format(produtoModel.qtde)
-            (holder.carrinhoView.findViewById(R.id.produto_preco) as TextView).text = DecimalFormat("#,##0,00").format(produtoModel.preco * 100)
-            (holder.carrinhoView.findViewById(R.id.produto_preco_total) as TextView).text = DecimalFormat("#,##0,00").format(produtoModel.getTotal() * 100)
-
-            holder.dialog(produtosArrayList, position, this)
-        }
-
-        override fun getItemCount(): Int {
-            return produtosArrayList.size
-        }
-    }
-    */
-    /*
-    inner class CarrinhoAdapter(private var data: ArrayList<Produto>) : BaseAdapter() {
-
-        override fun getCount(): Int {
-            return data.size
-        }
-
-        override fun getItem(i: Int): Produto {
-            return data[i]
-        }
-
-        override fun getItemId(i: Int): Long {
-            return i.toLong()
-        }
-
-        override fun getView(position: Int, view: View?, viewGroup: ViewGroup): View {
-            val inflater = baseContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
-            var v = view
-            if (v == null) {
-                v = inflater.inflate(R.layout.item_list, null)
-            }
-            if (data[position].noCarrinho) {
-                val linear1 = v!!.findViewById(R.id.linear1) as LinearLayout
-                val item = v.findViewById(R.id.produto_nome) as TextView
-                val linear2 = v.findViewById(R.id.linear2) as LinearLayout
-                val linear3 = v.findViewById(R.id.linear3) as LinearLayout
-                val preco_t = v.findViewById(R.id.produto_preco_total) as TextView
-                val textview2 = v.findViewById(R.id.textview2) as TextView
-                val preco = v.findViewById(R.id.produto_preco) as TextView
-
-                item.text = produtosArrayList[position].nome + " (" + data[position].qtde + ")"
-                preco.text = DecimalFormat("#,##0,00").format(data[position].preco * 100)
-                preco_t.text = DecimalFormat("#,##0,00").format(data[position].getTotal() * 100)
-
-                return v
-            } else {
-                v!!.visibility = View.GONE
-                return v
-            }
-        }
-    }
-
-    */
-
-    /* adapter da lista de compras
-    inner class ListaAdapter(private var data: ArrayList<Produto>) : BaseAdapter() {
-
-        override fun getCount(): Int {
-            return data.size
-        }
-
-        override fun getItem(i: Int): Produto {
-            return data[i]
-        }
-
-        override fun getItemId(i: Int): Long {
-            return i.toLong()
-        }
-
-        override fun getView(position: Int, view: View?, viewGroup: ViewGroup): View {
-            val inflater = baseContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
-            var v: View? = view
-            if (v == null) {
-                v = inflater.inflate(R.layout.shoplist, null)
-            }
-            if (!data[position].noCarrinho) {
-                val linear1 = v!!.findViewById(R.id.linear1) as LinearLayout
-                val ord2 = v.findViewById(R.id.ord2) as TextView
-                val name2 = v.findViewById(R.id.name2) as TextView
-                val linear2 = v.findViewById(R.id.linear2) as LinearLayout
-                val checkbox2 = v.findViewById(R.id.checkbox2) as CheckBox
-
-                name2.text = data[position].nome
-
-                checkbox2.isChecked = data[position].isSelected
-
-                checkbox2.setOnClickListener {
-                    if (checkbox2.isChecked) {
-                        val dialog_add = AlertDialog.Builder(this@MainActivity).create()
-                        val inflate = layoutInflater.inflate(R.layout.check_dialog, null)
-                        val editpreco = inflate.findViewById(R.id.editpreco) as EditText
-                        val editqtde = inflate.findViewById(R.id.editqtde) as EditText
-                        val butcancel = inflate.findViewById(R.id.button1) as Button
-                        val butadd = inflate.findViewById(R.id.button2) as Button
-
-                        dialog_add.setView(inflate)
-                        editpreco.isFocusableInTouchMode = true
-                        editpreco.isFocusable = true
-                        editpreco.requestFocus()
-                        editpreco.setSelection(0)
-                        dialog_add.window!!.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE)
-
-                        butadd.setOnClickListener {
-                           showMessage("ADD!")
-                        }
-
-                        butcancel.setOnClickListener { dialog_add.dismiss() }
-
-                        dialog_add.show()
-
-                        data[position].isSelected = true
-                    } else {
-                        data[position].isSelected = false
-                    }
-                }
-                return v
-            } else {
-                v!!.visibility = View.GONE
-                return v
-            }
-        }
-    }
-*/
     // Método que tranforma o texto em tempo real para monetário
     inner class NumberTextWatcher(private val campo: EditText) : TextWatcher {
 
@@ -670,7 +414,7 @@ class MainActivity : Activity() {
         }
 
         override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {
-            campo.setText("R$0,00")
+            // Não utilizado
         }
 
         override fun afterTextChanged(s: Editable) {

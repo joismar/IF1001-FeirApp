@@ -1,77 +1,80 @@
-<LinearLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content"
-	android:orientation="vertical"
-	>
-	<LinearLayout
-		android:id="@+id/linear3"
-		android:layout_width="match_parent"
-		android:layout_height="match_parent"
-		android:padding="8dp"
-		android:background="#FF8F00"
-		android:orientation="vertical"
-		android:gravity="center_horizontal|center_vertical"
-		>
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical">
 
-		<TextView
-			android:id="@+id/textview1"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:layout_marginTop="10dp"
-			android:layout_marginBottom="10dp"
-			android:focusable="false"
-			android:padding="8dp"
-			android:text="Adicionar ao carrinho\?"
-			android:textColor="#FFFFFF"
-			android:textSize="24sp"
-			android:textStyle="bold" />
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EF6C00"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="25dp">
 
-		<LinearLayout
-			android:id="@+id/linedit"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:layout_gravity="center|center_horizontal|center_vertical"
-			android:layout_marginLeft="10dp"
-			android:layout_marginRight="10dp"
-			android:layout_marginBottom="20dp"
-			android:background="#FF8F00"
-			android:gravity="center"
-			android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:focusable="false"
+            android:fontFamily="@font/comfortaa_family"
+            android:padding="8dp"
+            android:text="ADICIONAR AO CARRINHO"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-			<EditText
-				android:id="@+id/editpreco"
-				android:layout_width="100dp"
-				android:layout_height="50dp"
-				android:layout_gravity="center"
-				android:layout_marginLeft="0dp"
-				android:layout_marginRight="0dp"
-				android:background="@drawable/rndcorn"
-				android:elevation="2dp"
-				android:ems="10"
-				android:gravity="center"
-				android:hint="Preço"
-				android:imeOptions="actionNext"
-				android:inputType="numberDecimal"
-				android:paddingLeft="10dp"
-				android:paddingRight="10dp"
-				android:textColor="#690b3d" />
+        <LinearLayout
+            android:id="@+id/linedit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
 
-			<Space
-				android:layout_width="20dp"
-				android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/editpreco"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/rndcorn"
+                android:elevation="2dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Preço"
+                android:imeOptions="actionNext"
+                android:inputType="numberDecimal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#690b3d" />
 
-			<LinearLayout
-				android:id="@+id/ripple"
-				android:layout_width="wrap_content"
-				android:layout_height="50dp"
-				android:layout_gravity="center"
-				android:layout_marginLeft="0dp"
-				android:layout_marginRight="0dp"
-				android:layout_marginBottom="0dp"
-				android:background="#FF8F00"
-				android:gravity="center"
-				android:orientation="horizontal">
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/ripple"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/rndcorn"
+                android:elevation="2dp"
+                android:gravity="center"
+                android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/subtrairButton"
@@ -79,27 +82,23 @@
                     android:layout_height="50dp"
                     android:background="@drawable/rndbutton"
                     android:drawableStart="@drawable/minus"
-                    android:elevation="2dp"
                     android:padding="8dp"
                     android:textColor="#FFF"
                     android:textSize="36sp" />
 
                 <EditText
                     android:id="@+id/editqtde"
-                    android:layout_width="70dp"
+                    android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
                     android:layout_weight="1"
                     android:background="@drawable/rndcorn"
-                    android:elevation="2dp"
                     android:ems="10"
                     android:gravity="center"
                     android:imeOptions="actionDone"
                     android:inputType="number"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="0dp"
                     android:text="1"
                     android:textColor="#690b3d"
                     android:visibility="visible" />
@@ -114,46 +113,36 @@
                     android:padding="8dp"
                     android:textColor="#FFF"
                     android:textSize="30sp" />
-			</LinearLayout>
+            </LinearLayout>
 
-		</LinearLayout>
+        </LinearLayout>
 
-		<LinearLayout
-			android:id="@+id/linear6"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:layout_marginLeft="10dp"
-			android:layout_marginRight="10dp"
-			android:layout_marginBottom="15dp"
-			android:gravity="center"
-			android:orientation="horizontal">
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rndbutton"
+            android:backgroundTint="#AD1457"
+            android:padding="8dp"
+            android:text="Adicionar"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
 
-			<Button
-				android:id="@+id/button1"
-				android:layout_width="100dp"
-				android:layout_height="wrap_content"
-				android:layout_marginRight="10dp"
-				android:background="@drawable/rndbutton"
-				android:backgroundTint="#702646"
-				android:elevation="2dp"
-				android:focusable="false"
-				android:padding="8dp"
-				android:text="Cancelar"
-				android:textColor="#FFFFFF"
-				android:textSize="12sp" />
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rndbutton"
+            android:backgroundTint="#702646"
+            android:padding="8dp"
+            android:text="Cancelar"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
 
-			<Button
-				android:id="@+id/button2"
-				android:layout_width="99dp"
-				android:layout_height="wrap_content"
-				android:background="@drawable/rndbutton"
-				android:backgroundTint="#AD1457"
-				android:elevation="2dp"
-				android:focusable="false"
-				android:padding="8dp"
-				android:text="Adicionar"
-				android:textColor="#FFFFFF"
-				android:textSize="12sp" />
-		</LinearLayout>
-	</LinearLayout>
+    </LinearLayout>
 </LinearLayout>

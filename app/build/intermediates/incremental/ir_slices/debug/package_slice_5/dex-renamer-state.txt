@@ -1,4 +1,4 @@
-#Mon Jun 24 16:24:48 GMT-03:00 2019
+#Sat Jun 29 01:46:02 GMT-03:00 2019
 base.0=C\:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
 path.0=classes.dex
 renamed.0=classes.dex
