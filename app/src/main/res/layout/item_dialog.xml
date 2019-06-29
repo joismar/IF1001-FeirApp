@@ -7,38 +7,56 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#E91E63"
+        android:background="#EF6C00"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:paddingLeft="20dp"
+        android:paddingTop="15dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="25dp">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/comfortaa_family"
             android:gravity="center"
             android:text="O que deseja fazer?"
             android:textColor="#FFFCFC"
             android:textColorHighlight="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/botao_remover"
-            style="@android:style/Widget.Material.Light.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="REMOVER ITEM" />
+            android:layout_margin="5dp"
+            android:background="@drawable/rndbutton"
+            android:backgroundTint="#AD1457"
+            android:text="REMOVER ITEM"
+            android:textColor="#F7F2F2" />
 
         <Button
             android:id="@+id/botao_editar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="EDITAR ITEM" />
+            android:layout_margin="5dp"
+            android:background="@drawable/rndbutton"
+            android:backgroundTint="#AD1457"
+            android:text="EDITAR ITEM"
+            android:textColor="#F7F2F2" />
 
         <Button
             android:id="@+id/botao_cancelar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CANCELAR" />
+            android:layout_margin="5dp"
+            android:background="@drawable/rndbutton"
+            android:backgroundTint="#702646"
+            android:text="CANCELAR"
+            android:textColor="#F7F2F2" />
     </LinearLayout>
 </RelativeLayout>
