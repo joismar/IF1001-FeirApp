@@ -13,6 +13,7 @@ import java.text.DecimalFormat
 import android.content.Context.LAYOUT_INFLATER_SERVICE
 import androidx.core.content.ContextCompat.getSystemService
 import android.widget.CompoundButton
+import kotlinx.android.synthetic.main.main.*
 
 class ListaAdapter(private val produtos: ArrayList<Produto>, private val activity: MainActivity) : RecyclerView.Adapter<ListaAdapter.ListaViewHolder>() {
 
@@ -27,7 +28,6 @@ class ListaAdapter(private val produtos: ArrayList<Produto>, private val activit
             checkbox2.setOnClickListener {
                 if (checkbox2.isChecked) {
                     val vi = activity.getSystemService(LAYOUT_INFLATER_SERVICE) as LayoutInflater
-
                     val dialog_add = AlertDialog.Builder(itemView.context).create()
                     val inflate = vi.inflate(R.layout.check_dialog, null)
                     val editpreco = inflate.findViewById(R.id.editpreco) as EditText
@@ -51,6 +51,9 @@ class ListaAdapter(private val produtos: ArrayList<Produto>, private val activit
                     editpreco.setSelection(0)
 
                     dialog_add.window!!.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE)
+
+                    editpreco.setText("R$0,00")
+                    editpreco.setSelection(editpreco.text.length)
 
                     butadd.setOnClickListener {
                         activity.addProdutoLista(
