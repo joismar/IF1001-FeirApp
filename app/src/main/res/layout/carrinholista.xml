@@ -21,7 +21,8 @@
 			android:paddingBottom="8dp"
 			android:text="Feijão"
 			android:textColor="#FFFFFF"
-			android:textSize="14sp" />
+			android:textSize="14sp"
+			android:textStyle="bold" />
 
 		<TextView
 			android:id="@+id/produto_qtde"
@@ -96,4 +97,11 @@
 			</LinearLayout>
 		</LinearLayout>
 	</LinearLayout>
+
+	<View
+		android:id="@+id/divider"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="?android:attr/listDivider" />
+
 </LinearLayout>
