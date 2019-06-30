@@ -35,7 +35,8 @@ class CarrinhoAdapter(private val produtos: ArrayList<Produto>, private val acti
                     dialog.dismiss()
                 }
                 butedit.setOnClickListener {
-                    TODO()
+                    // Chama popup pra editar o item
+                    activity.editaProduto(position, adapter)
                 }
                 butremove.setOnClickListener {
                     activity.deletaProduto(position, adapter)

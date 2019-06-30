@@ -123,6 +123,12 @@ class MainActivity : AppCompatActivity() {
         }
 
         limiteView.setOnClickListener {
+            // Abrir popup para definição de valor limite
+            TODO()
+        }
+
+        share.setOnClickListener {
+            // Chamar login para compartilhamento da feira
             TODO()
         }
 
@@ -207,11 +213,10 @@ class MainActivity : AppCompatActivity() {
             menu.add("Limpar")
             menu.add("Sobre")
             popupMenu.setOnMenuItemClickListener { item ->
-                val i = item.title.toString()
 
-                when (i) {
+                when (item.title.toString()) {
                     "Salvar Feira" -> {
-                        //_save_feira()
+                        salvarFeira()
                         true
                     }
                     "Limpar" -> {
@@ -300,6 +305,11 @@ class MainActivity : AppCompatActivity() {
         atualizarTotal()
     }
 
+    fun editaProduto(position: Int, adapter: CarrinhoAdapter) {
+        // Edita o produto
+        TODO()
+    }
+
     // RECUPERA PRODUTOS DO ARQUIVO
     private fun carregarPreferencias() {
         val gson = Gson()
@@ -311,7 +321,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     // NOVO METODO CARREGAR TOTAL
-    fun atualizarTotal() {
+    private fun atualizarTotal() {
         Log.d("Produtos: ", produtosArrayList.toString())
         val precoTotal: Double = produtosArrayList.sumByDouble{ it.getTotal() }
         total!!.text = DecimalFormat("#,##0,00").format(precoTotal * 100)
