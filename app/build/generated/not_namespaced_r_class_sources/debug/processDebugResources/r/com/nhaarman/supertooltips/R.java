@@ -12,35 +12,35 @@ public final class R {
     public static final class dimen {
         private dimen() {}
 
-        public static final int bg_tooltip_padding_bottom = 0x7f060050;
-        public static final int bg_tooltip_padding_left = 0x7f060051;
-        public static final int bg_tooltip_padding_right = 0x7f060052;
-        public static final int bg_tooltip_padding_top = 0x7f060053;
-        public static final int bg_tooltip_pointer_padding_bottom = 0x7f060054;
+        public static final int bg_tooltip_padding_bottom = 0x7f06004b;
+        public static final int bg_tooltip_padding_left = 0x7f06004c;
+        public static final int bg_tooltip_padding_right = 0x7f06004d;
+        public static final int bg_tooltip_padding_top = 0x7f06004e;
+        public static final int bg_tooltip_pointer_padding_bottom = 0x7f06004f;
     }
     public static final class drawable {
         private drawable() {}
 
         public static final int quickcontact_drop_shadow = 0x7f070093;
-        public static final int tooltip_arrow_down = 0x7f070098;
-        public static final int tooltip_arrow_up = 0x7f070099;
-        public static final int tooltip_bottom_frame = 0x7f07009a;
-        public static final int tooltip_top_frame = 0x7f07009d;
+        public static final int tooltip_arrow_down = 0x7f070097;
+        public static final int tooltip_arrow_up = 0x7f070098;
+        public static final int tooltip_bottom_frame = 0x7f070099;
+        public static final int tooltip_top_frame = 0x7f07009c;
     }
     public static final class id {
         private id() {}
 
-        public static final int tooltip_bottomframe = 0x7f090135;
-        public static final int tooltip_contentholder = 0x7f090136;
-        public static final int tooltip_contenttv = 0x7f090137;
-        public static final int tooltip_pointer_down = 0x7f090138;
-        public static final int tooltip_pointer_up = 0x7f090139;
-        public static final int tooltip_shadow = 0x7f09013a;
-        public static final int tooltip_topframe = 0x7f09013b;
+        public static final int tooltip_bottomframe = 0x7f0900f9;
+        public static final int tooltip_contentholder = 0x7f0900fa;
+        public static final int tooltip_contenttv = 0x7f0900fb;
+        public static final int tooltip_pointer_down = 0x7f0900fc;
+        public static final int tooltip_pointer_up = 0x7f0900fd;
+        public static final int tooltip_shadow = 0x7f0900fe;
+        public static final int tooltip_topframe = 0x7f0900ff;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int tooltip = 0x7f0c0052;
+        public static final int tooltip = 0x7f0c003c;
     }
 }

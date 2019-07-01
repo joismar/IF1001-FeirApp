@@ -4,17 +4,7 @@
             "outputFile": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\de02acdf765cc1840b3b49efb28cd2ff\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\edff4bfd8a2edc3d8dd3938c655e7034\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\55f25e6faa1a9a173aa37eec5aa709ff\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\7e84f57ddadf8158e41e0a39ec249d25\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

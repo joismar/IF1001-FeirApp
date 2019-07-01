@@ -1,6 +1,7 @@
 package com.app.feirapp
 
 import android.app.*
+import android.content.Intent
 import android.os.*
 import android.view.*
 import android.widget.*
@@ -124,12 +125,13 @@ class MainActivity : AppCompatActivity() {
 
         limiteView.setOnClickListener {
             // Abrir popup para definição de valor limite
-            TODO()
+            TODO("Popup para definir limite de valor")
         }
 
         share.setOnClickListener {
             // Chamar login para compartilhamento da feira
-            TODO()
+            val intent = Intent(this, ShareActivity::class.java).apply {}
+            startActivity(intent)
         }
 
         input_qtde!!.setOnEditorActionListener { v, actionId, event ->
@@ -307,7 +309,7 @@ class MainActivity : AppCompatActivity() {
 
     fun editaProduto(position: Int, adapter: CarrinhoAdapter) {
         // Edita o produto
-        TODO()
+        TODO("Editar produto")
     }
 
     // RECUPERA PRODUTOS DO ARQUIVO
@@ -336,7 +338,7 @@ class MainActivity : AppCompatActivity() {
 
     // método pra salvar o carrinho
     private fun salvarFeira() {
-        TODO()
+        TODO("Salvar feira em arquivo")
     }
 
     // clique na tab carrinho

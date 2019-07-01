@@ -8,6 +8,7 @@
 		android:icon="@drawable/app_icon"
 		android:theme="@style/NoActionBar"
 		tools:replace="android:allowBackup">
+
 		<activity
 			android:name="com.app.feirapp.MainActivity"
 			android:configChanges="orientation|screenSize"
@@ -19,5 +20,13 @@
 				<category android:name="android.intent.category.LAUNCHER"/>
 			</intent-filter>
 		</activity>
+
+		<activity android:name=".ShareActivity"
+			android:parentActivityName=".MainActivity">
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value=".MainActivity" />
+		</activity>
+
 	</application>
 </manifest>
