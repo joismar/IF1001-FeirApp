@@ -244,6 +244,7 @@ class MainActivity : AppCompatActivity() {
         ))
 
         atualizarTotal()
+        salvarPreferencias()
     }
 
     // Método para remover a moeda e deixar como uma string para se tornar float

@@ -10,8 +10,9 @@
         <item name="android:fontFamily">@font/comfortaa_family</item>
     </style>
 
-    <style name="NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="NoActionBar" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:colorPrimary">#008dcd</item>
+        <item name="android:colorBackground">#AD1457</item>
         <item name="android:colorPrimaryDark">#0084c2</item>
         <item name="android:colorAccent">#008dcd</item>
         <item name="android:colorControlHighlight">#008dcd</item>
