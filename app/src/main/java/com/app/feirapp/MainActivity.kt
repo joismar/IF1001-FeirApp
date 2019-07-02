@@ -111,6 +111,9 @@ class MainActivity : AppCompatActivity() {
         comprasLista = findViewById<View>(R.id.listaView) as RecyclerView
         comprasLista!!.layoutManager = LinearLayoutManager(this)
 
+        carregarPreferencias()
+        checaListaVazia()
+
         input_preco.onFocusChangeListener = OnFocusChangeListener { _, hasFocus ->
             if (hasFocus) {
                 input_preco.setText("R$0,00")
@@ -130,7 +133,10 @@ class MainActivity : AppCompatActivity() {
 
         share.setOnClickListener {
             // Chamar login para compartilhamento da feira
+            // INICIANDO ATIVIDADE
             val intent = Intent(this, ShareActivity::class.java).apply {}
+            // MANDANDO A LISTA
+            //intent.putParcelableArrayListExtra("comprasLista", produtosArrayList)
             startActivity(intent)
         }
 
@@ -148,7 +154,6 @@ class MainActivity : AppCompatActivity() {
                             input_nome!!.text.toString(),
                             removeCurrency(input_preco!!.text.toString()).toDouble(),
                             input_qtde!!.text.toString().toInt(),
-                            noCarrinho = true,
                             isSelected = false
                     ))
 
@@ -185,7 +190,6 @@ class MainActivity : AppCompatActivity() {
                         inputproduto!!.text.toString(),
                         0.0,
                         1,
-                        noCarrinho = false,
                         isSelected = false
                     ))
 
@@ -239,7 +243,6 @@ class MainActivity : AppCompatActivity() {
                 listaArrayList[position].nome,
                 removeCurrency(preco).toDouble(),
                 qtde.toInt(),
-                noCarrinho = true,
                 isSelected = false
         ))
 
@@ -253,7 +256,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initializeLogic() {
-        checaListaVazia()
 
         // seta o que deve ou não está visivel inicialmente
         _tab1click()
@@ -275,8 +277,6 @@ class MainActivity : AppCompatActivity() {
         title = "FeirApp"
 
         date = Calendar.getInstance()
-
-        carregarPreferencias()
 
         carrinhoLista?.adapter = CarrinhoAdapter(produtosArrayList, this)
 

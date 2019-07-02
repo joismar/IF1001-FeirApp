@@ -725,6 +725,7 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
+dimen activity_horizontal_margin
 dimen bg_tooltip_padding_bottom
 dimen bg_tooltip_padding_left
 dimen bg_tooltip_padding_right

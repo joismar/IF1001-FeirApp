@@ -10,6 +10,7 @@ import com.google.android.gms.auth.api.Auth
 import com.google.firebase.auth.GoogleAuthProvider
 import android.content.Intent
 import android.graphics.Color
+import android.os.Parcelable
 import android.view.View
 import android.view.WindowManager
 import android.view.inputmethod.EditorInfo
@@ -20,6 +21,8 @@ import com.google.android.gms.common.SignInButton
 import com.google.android.gms.common.api.ResultCallback
 import com.google.android.gms.common.api.Status
 import com.google.firebase.auth.FirebaseUser
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.main.*
 import kotlinx.android.synthetic.main.signin_layout.*
 
@@ -42,6 +45,10 @@ class ShareActivity : AppCompatActivity() {
     lateinit var LoginUserName: TextView
     lateinit var LoginUserEmail: TextView
 
+    // PEGANDO A LISTA
+    //private val i = this.intent
+    //private val comprasLista = i.getParcelableArrayListExtra<Parcelable>("comprasLista") as ArrayList<*>
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.signin_layout)
@@ -53,9 +60,8 @@ class ShareActivity : AppCompatActivity() {
         w.statusBarColor = Color.parseColor("#F57C00")
 
         signInButton = findViewById(R.id.sign_in_button) as SignInButton
-        SignOutButton = findViewById(R.id.sign_out) as Button
+        SignOutButton = findViewById(R.id.buttonLogout) as Button
         LoginUserName = findViewById(R.id.textViewName) as TextView
-        LoginUserEmail = findViewById(R.id.textViewEmail) as TextView
         signInButton = findViewById(R.id.sign_in_button) as SignInButton
 
         // Getting Firebase Auth Instance into firebaseAuth object.
@@ -89,7 +95,9 @@ class ShareActivity : AppCompatActivity() {
         // Check if user is signed in (non-null) and update UI accordingly.
         val currentUser = firebaseAuth.currentUser
 
-        updateUI(currentUser!!)
+        if (currentUser != null) {
+            updateUI(currentUser)
+        }
     }
 
     // Sign In function Starts From Here.
@@ -130,7 +138,7 @@ class ShareActivity : AppCompatActivity() {
 
                         userEmail!!.setOnEditorActionListener { v, actionId, event ->
                             if (actionId == EditorInfo.IME_ACTION_DONE) {
-                                compartilharLista(firebaseUser!!)
+                                compartilharLista(firebaseUser, userEmail.text.toString())
                                 true
                             } else {
                                 false
@@ -143,8 +151,10 @@ class ShareActivity : AppCompatActivity() {
                 }
     }
 
-    private fun compartilharLista(firebaseUser: FirebaseUser) {
-        TODO("Compartilhamento de lista") //To change body of created functions use File | Settings | File Templates.
+    private fun compartilharLista(firebaseUser: FirebaseUser, userEmail: String) {
+        //val database: DatabaseReference = FirebaseDatabase.getInstance().reference
+
+        //database.child(firebaseUser.email.toString()+"_shares").child(userEmail).setValue(comprasLista)
     }
 
     fun UserSignOutFunction() {
@@ -181,7 +191,7 @@ class ShareActivity : AppCompatActivity() {
         loginSucessView.visibility = View.VISIBLE
 
         // Setting up name into TextView.
-        LoginUserName.text = user!!.displayName!!.toString() + ','
+        LoginUserName.text = "Olá " + user!!.displayName!!.toString() + ","
 
         // Setting up Email into TextView.
         //LoginUserEmail.text = "Email = " + firebaseUser.email!!.toString()
