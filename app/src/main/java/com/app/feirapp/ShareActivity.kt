@@ -161,7 +161,8 @@ class ShareActivity : AppCompatActivity() {
         val main = this.intent
         val produtosArrayList = main.getParcelableArrayListExtra<Parcelable>("produtosArrayList") as ArrayList<Produto>
 
-        database!!.reference.child(firebaseUser.email.toString()+"_shares").child(userEmail).setValue(produtosArrayList)
+        database!!.reference.child("shares").child(firebaseUser.uid).setValue(produtosArrayList)
+        database!!.reference.child("shares").child(firebaseUser.uid).setValue(userEmail)
     }
 
     fun UserSignOutFunction() {
