@@ -49,8 +49,8 @@ class MainActivity : AppCompatActivity() {
     private var total: TextView? = null
 
     // Array de produto para ser trocado pelos array lists genéricos acima futuramente
-    private var produtosArrayList = ArrayList<Produto>()
-    private var listaArrayList = ArrayList<Produto>()
+    var produtosArrayList = ArrayList<Produto>()
+    var listaArrayList = ArrayList<Produto>()
 
     // Declarando shared preferences
     private var item_dialog: AlertDialog.Builder? = null
@@ -136,7 +136,7 @@ class MainActivity : AppCompatActivity() {
             // INICIANDO ATIVIDADE
             val intent = Intent(this, ShareActivity::class.java).apply {}
             // MANDANDO A LISTA
-            //intent.putParcelableArrayListExtra("comprasLista", produtosArrayList)
+            intent.putParcelableArrayListExtra("produtosArrayList", produtosArrayList)
             startActivity(intent)
         }
 
@@ -236,6 +236,10 @@ class MainActivity : AppCompatActivity() {
             // Mostrando o menu
             popupMenu.show()
         }
+    }
+
+    fun getComprasLista() : ArrayList<Produto>{
+        return listaArrayList
     }
 
     fun addProdutoLista(position: Int, preco: String, qtde: String) {

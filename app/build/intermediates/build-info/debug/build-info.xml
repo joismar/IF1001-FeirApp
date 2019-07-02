@@ -6,40 +6,43 @@
     density="xhdpi"
     format="10"
     plugin-version="3.4.1"
-    timestamp="1562101733109"
+    timestamp="1562105431183"
     token="-6113642265025968424"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="3053" />
+        duration="3043" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="387" />
+        duration="967" />
     <task
         name="verifier"
-        duration="171" />
+        duration="15" />
 
     <artifact
-        location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
+        location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
         location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -48,39 +51,39 @@
         location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
         type="SPLIT_MAIN" />
-    <artifact
-        location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1562101733109"
+        timestamp="1562105431183"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
@@ -89,17 +92,14 @@
             location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
-        <artifact
-            location="C:\Users\joism\Documents\GitHub\FeirApp-P3\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>

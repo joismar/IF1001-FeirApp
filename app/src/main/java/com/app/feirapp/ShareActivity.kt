@@ -25,6 +25,7 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.main.*
 import kotlinx.android.synthetic.main.signin_layout.*
+import com.google.firebase.database.Logger.Level
 
 
 class ShareActivity : AppCompatActivity() {
@@ -43,15 +44,22 @@ class ShareActivity : AppCompatActivity() {
 
     // TextView to Show Login User Email and Name.
     lateinit var LoginUserName: TextView
-    lateinit var LoginUserEmail: TextView
 
-    // PEGANDO A LISTA
-    //private val i = this.intent
-    //private val comprasLista = i.getParcelableArrayListExtra<Parcelable>("comprasLista") as ArrayList<*>
+    private var database: FirebaseDatabase? = null
+    private var persistenceInitialized = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.signin_layout)
+
+        database = FirebaseDatabase.getInstance()
+
+        if (!persistenceInitialized) {
+            database!!.setPersistenceEnabled(true)
+            persistenceInitialized = true
+        }
+
+        database!!.setLogLevel(Level.DEBUG)
 
         // altera a cor da status bar
         val w = this.window
@@ -95,9 +103,7 @@ class ShareActivity : AppCompatActivity() {
         // Check if user is signed in (non-null) and update UI accordingly.
         val currentUser = firebaseAuth.currentUser
 
-        if (currentUser != null) {
-            updateUI(currentUser)
-        }
+        updateUI(currentUser)
     }
 
     // Sign In function Starts From Here.
@@ -137,7 +143,7 @@ class ShareActivity : AppCompatActivity() {
                         updateUI(firebaseUser!!)
 
                         userEmail!!.setOnEditorActionListener { v, actionId, event ->
-                            if (actionId == EditorInfo.IME_ACTION_DONE) {
+                            if (actionId == EditorInfo.IME_ACTION_SEND) {
                                 compartilharLista(firebaseUser, userEmail.text.toString())
                                 true
                             } else {
@@ -152,15 +158,18 @@ class ShareActivity : AppCompatActivity() {
     }
 
     private fun compartilharLista(firebaseUser: FirebaseUser, userEmail: String) {
-        //val database: DatabaseReference = FirebaseDatabase.getInstance().reference
+        val main = this.intent
+        val produtosArrayList = main.getParcelableArrayListExtra<Parcelable>("produtosArrayList") as ArrayList<Produto>
 
-        //database.child(firebaseUser.email.toString()+"_shares").child(userEmail).setValue(comprasLista)
+        database!!.reference.child(firebaseUser.email.toString()+"_shares").child(userEmail).setValue(produtosArrayList)
     }
 
     fun UserSignOutFunction() {
 
         // Sing Out the User.
         firebaseAuth.signOut()
+
+        val currentUser = firebaseAuth.currentUser
 
         Auth.GoogleSignInApi.signOut(googleApiClient).setResultCallback {
             // Write down your any code here which you want to execute After Sign Out.
@@ -169,28 +178,20 @@ class ShareActivity : AppCompatActivity() {
             Toast.makeText(this@ShareActivity, "Logout Successfully", Toast.LENGTH_LONG).show()
         }
 
-        // After logout Hiding sign out button.
-        SignOutButton.setVisibility(View.GONE)
+        updateUI(currentUser)
 
-        // After logout setting up login button visibility to visible.
-        signInButton.visibility = View.VISIBLE
     }
 
-    private fun updateUI(user: FirebaseUser) {
-        // Showing Log out button.
-        //SignOutButton.visibility = View.VISIBLE
+    private fun updateUI(user: FirebaseUser?) {
 
-        // Hiding Login in button.
-        noLoginView.visibility = View.GONE
-
-        // Showing the TextView.
-        loginSucessView.visibility = View.VISIBLE
-
-        // Setting up name into TextView.
-        LoginUserName.text = "Olá " + user!!.displayName!!.toString() + ","
-
-        // Setting up Email into TextView.
-        //LoginUserEmail.text = "Email = " + firebaseUser.email!!.toString()
+        if (user == null) {
+            noLoginView.visibility = View.VISIBLE
+            loginSucessView.visibility = View.GONE
+        } else {
+            noLoginView.visibility = View.GONE
+            loginSucessView.visibility = View.VISIBLE
+            LoginUserName.text = "Olá " + user!!.displayName!!.toString() + ","
+        }
     }
 
     companion object {
