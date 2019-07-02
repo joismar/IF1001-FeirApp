@@ -1069,6 +1069,7 @@ id botao_remover
 id bottom
 id button1
 id button2
+id buttonLogout
 id buttonPanel
 id carrinhoLista
 id center
@@ -1259,7 +1260,6 @@ id textView
 id textView2
 id textView3
 id textView4
-id textViewEmail
 id textViewName
 id text_input_password_toggle
 id textinput_counter

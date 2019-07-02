@@ -172,10 +172,6 @@ class ShareActivity : AppCompatActivity() {
         // After logout Hiding sign out button.
         SignOutButton.setVisibility(View.GONE)
 
-        // After logout setting up email and name to null.
-        LoginUserName.text = null
-        LoginUserEmail.text = null
-
         // After logout setting up login button visibility to visible.
         signInButton.visibility = View.VISIBLE
     }
