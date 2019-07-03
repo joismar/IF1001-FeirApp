@@ -47,7 +47,7 @@ class ShareActivity : AppCompatActivity() {
     // TextView to Show Login User Email and Name.
     lateinit var LoginUserName: TextView
 
-    lateinit var carrinhoCompartilhado: Any
+    var carrinhoCompartilhado: Any? = null
 
     private var database: FirebaseDatabase? = null
     private var persistenceInitialized = false
@@ -107,28 +107,6 @@ class ShareActivity : AppCompatActivity() {
         // Check if user is signed in (non-null) and update UI accordingly.
 
         val currentUser = firebaseAuth.currentUser
-        val currentEmail = firebaseAuth.currentUser?.email.toString()
-
-        val emailRef = database!!.reference.child("shares")
-        val queryRef = emailRef.orderByChild("email").equalTo(currentEmail)
-
-        queryRef.addListenerForSingleValueEvent(object : ValueEventListener {
-            override fun onDataChange(p0: DataSnapshot) {
-                val children = p0!!.children
-                // This returns the correct child count...
-                println("count: "+p0.children.count().toString())
-                children.forEach {
-                    carrinhoCompartilhado = it.children
-                    println(carrinhoCompartilhado)
-                    println(it.toString())
-                    println(currentEmail)
-                }
-            }
-
-            override fun onCancelled(p0: DatabaseError) {
-                println(p0!!.message)
-            }
-        })
 
         updateUI(currentUser)
     }
@@ -173,7 +151,6 @@ class ShareActivity : AppCompatActivity() {
                         userEmail!!.setOnEditorActionListener { v, actionId, event ->
                             if (actionId == EditorInfo.IME_ACTION_SEND) {
                                 compartilharLista(firebaseUser, userEmail.text.toString())
-                                verifyShare(firebaseAuth.currentUser?.email.toString())
                                 true
                             } else {
                                 false
@@ -186,33 +163,13 @@ class ShareActivity : AppCompatActivity() {
                 }
     }
 
-    fun verifyShare(currentEmail: String) {
-        val emailRef = database!!.reference.child("shares")
-        val queryRef = emailRef.orderByChild("email").equalTo(currentEmail)
-
-        queryRef.addListenerForSingleValueEvent(object : ValueEventListener {
-            override fun onDataChange(p0: DataSnapshot) {
-                val children = p0!!.children
-                // This returns the correct child count...
-                println("count: "+p0.children.count().toString())
-                children.forEach {
-                    println(it.children.toString())
-                    println(currentEmail)
-                }
-            }
-
-            override fun onCancelled(p0: DatabaseError) {
-                println(p0!!.message)
-            }
-        })
-    }
-
     private fun compartilharLista(firebaseUser: FirebaseUser, userEmail: String) {
         val main: Bundle? = intent.extras
         val produtosArrayList = main?.getString("produtosArrayList")
 
-        database!!.reference.child("shares").child(firebaseUser.uid).child("carrinho").setValue(produtosArrayList)
-        database!!.reference.child("shares").child(firebaseUser.uid).child("email").setValue(userEmail)
+        database!!.reference.child("shares").child(userEmail.split(".")[0]).child("carrinho").setValue(produtosArrayList)
+        database!!.reference.child("shares").child(userEmail.split(".")[0]).child("to").setValue(firebaseAuth.currentUser?.email.toString())
+        database!!.reference.child("shares").child(userEmail.split(".")[0]).child("from").setValue(userEmail)
     }
 
     fun UserSignOutFunction() {
@@ -243,6 +200,23 @@ class ShareActivity : AppCompatActivity() {
             loginSucessView.visibility = View.VISIBLE
             LoginUserName.text = "Olá " + user!!.displayName!!.toString() + ","
         }
+
+        val currentEmail = firebaseAuth.currentUser?.email.toString()
+
+        val emailRef = database!!.reference.child("shares").child(currentEmail.split(".")[0]).child("carrinho")
+        val queryRef = emailRef
+
+        queryRef.addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(p0: DataSnapshot) {
+                carrinhoCompartilhado = p0!!.getValue()
+
+                println(carrinhoCompartilhado)
+            }
+
+            override fun onCancelled(p0: DatabaseError) {
+                println(p0!!.message)
+            }
+        })
     }
 
     companion object {

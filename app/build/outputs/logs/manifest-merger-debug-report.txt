@@ -1,512 +1,512 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-32:12
-INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-32:12
-INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-32:12
-INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-32:12
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\c470f3ca96914f20e0caa63eb633a62d\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\a0591fb02244020412ea29d7426c5778\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\55f25e6faa1a9a173aa37eec5aa709ff\AndroidManifest.xml:17:1-22:12
-MERGED from [com.nhaarman.supertooltips:library:3.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\387ebb31e336c96bb08f43861497acf0\AndroidManifest.xml:1:91-6:12
-MERGED from [com.google.firebase:firebase-core:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\599ff7650d33d8741d14692ba289dcbe\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-database:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\eb5f14dfaf0ea57ef4fb58296dc88aa8\AndroidManifest.xml:15:1-36:12
-MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:17:1-42:12
-MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\848b39be636b5709c151d036cc6e9386\AndroidManifest.xml:17:1-39:12
-MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\e5d5e62bb8745e16c44f158bf273aa80\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-analytics:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\d089de81361d4a7585aba9dd9b6d9599\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f110537fa299875c7f0723b695852a1b\AndroidManifest.xml:17:1-36:12
-MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:17:1-47:12
-MERGED from [com.google.firebase:firebase-common:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\08a580c09ba6e81136d67ab86b578ad8\AndroidManifest.xml:2:1-19:12
-MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\b9ebf0a51f3c78b9e63964120e970049\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\46394e7685a424bc72b621a66cb5a3ee\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\ebffa81b5f5724884891354ad54782aa\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\6bdfc35d24691ec8ddcea500eafb6f2f\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\37233b345d718516862457d6dc8260c7\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\0933ef997f6d8752407ffa0380c0224a\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:17:1-55:12
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\99cb5539726a0f9cc43acd9ec0f35124\AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\5b9e318c0334d036d33d764ad15c94c7\AndroidManifest.xml:17:1-40:12
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\1c8fe23d0889ae43b79ad2a3efdc02cd\AndroidManifest.xml:17:1-40:12
-MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\e1e21fa21dd4a303285db4052ba0dee6\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\2b85566c6a7c0cd7bf782c4cf5d19c94\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\bf11a32736a5a221e1ea33afe058d595\AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\52a42b51404bcb23f23b3e40e9187d2f\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\6d4ac2a73d18eb36c359603f10791a50\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\5bd6e82a41e46b416beeb99baffeef0c\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\32682b1882f0e15c275250c150fe86cc\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\036ad6db6e0d7f128a1d97a7714f3720\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\d2fd474203557a71db93d173d08f981a\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\b76f821ff68e77211734e487ae568c98\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\4dbb72c727276749f707cdc61256fc89\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\8184ca70842ab7730c02c1d220be6df5\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\ff90fdccba1201f3d13b2af88ec3c7e1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\e64d5f8969bb05048939ebfdfd5bddfe\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\fc79bd70bbd9c9e920bcd171c575bc2c\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\a67bf40e494619ad7734d4dba60073de\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\46016614f67530d4486bf44df2996990\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\46686fdd3f816d7b5d62fc1a058da724\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\46d6b6ba33897bd00d419546ff9337cf\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\a384daa4e7fbe0fe2f0953c581dd8bb7\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.1] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\7e84f57ddadf8158e41e0a39ec249d25\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\564b2d4f556adc243577062ce13956c4\AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\71a876dbb40135f0a6395d9713abbd4d\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\17ff96f847c8bd3bcedc5108abd40290\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\8e4705919a82ba16f43aa8247ce5743e\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\d7b2800fe36b16adb057dd164516fcb8\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\de99a1dae9f55cdbd53cf85885f87684\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\04f3264fe42d021519179195a99bd4f0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\19cc6cd88ac602b44668166f98f53d3a\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\923f7772300e8cca3ec27ca5c48a1a00\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\95510d0bb78d76c03d982f0d2bd8afb3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\95280edc6f526e8309b86fb33f1e3686\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\647efc196f947ba2bf9b2d1e9a952e23\AndroidManifest.xml:2:1-7:12
-INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-32:12
-INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-32:12
-INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-32:12
+ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:1:1-32:12
+MERGED from [com.google.android.material:material:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d4b1390155205baf17c409841fc00886/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/703752dfe346cc5c5a8fe5e278c6263d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/da34a1d2d2b0284feef7672e107f47d0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.nhaarman.supertooltips:library:3.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/28b8c5b890cdbf0bf60596a071080959/AndroidManifest.xml:1:91-6:12
+MERGED from [com.google.firebase:firebase-core:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/20b509bd33eb1af56a57295810b3cd16/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/fe947d905d71749118000fb0628ee819/AndroidManifest.xml:15:1-36:12
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/18eb509b80ec5dc5937d3d3e041b51c5/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/4e5be4d2d64b6a6d6b78026b3c8ae769/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d661a4cd9e7473fb262d8cb7dae429b1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1b3bfb5f001ca8dc66dc2d3dc38ea7a5/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-common:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/eba430fd571db40b08ca983226d3479b/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/b237f8872815e27545367b9e21507cd3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c04d8e72dbc2d0ca96ee121b1fbaf06d/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1cd4758beda4f2d5ee44f20d512f114d/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/75638c4f27a4321a162c114ab9d73d8a/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/bcc5109c3961cf5e9122f5f724bec1e3/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/7dfd942acfff0db6b0e21db276064e97/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/b9efb4bb0b9a80b48a0619185724df03/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8714e17c574ae6258f82ff53ce7b6560/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/e01aef5d5e4b8894deec61a79cfb8eeb/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8d2f70b1e6d63e3a571effb63d5a7893/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/7d605f659229e5e160b80cc352819a71/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/75b0bb1309c249902ab5621b6f0d6c02/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/5f58bdace3db50cdb6b7a32f5d063f60/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d271825b00e6929761cf0eec456bfa00/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/7895ad9a5bb8217926c1de030911d4c3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/0ee7f79d8a0e5e2d5a5b7eafe6858281/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/6d04773ce9a12905ab245597f8f254fc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/776f168f1552205796f24d96200413e0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/55555be1ca52587973790b415b9d283d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/fe5367ce1dbb701a7a51a83c09989983/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1234963af861619535a88936003c8c23/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/0ca6c7f8127ef9028b0526429e1db6f1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8224ceae26aebeaa661d50a564d354f4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/7296079ccd03efb50937b7c23272f998/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/60e1388183e4b3a40fd2697fa2f0c61b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/b554f494bee131ef01a6d3f83f050835/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/83b161f2cfd531019c31446f0ddfdbc7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/382ac61e978dd77c273d4731d3e5bffd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/06ed2b90d02c650b719731df27b2db59/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/56508d61e365818e284f7fa16b255fa6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/4e62f54b9c6f6ddddd11d2a8c8694a44/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/e154859d03541b849abbd7749278e69c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/2bf697ebe1179b61aa22fc93c970ebf7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d9649f61fbb38bf141440e55f4f47593/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/976d809931190c28063803767462e9ff/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/6608ae893e9a80c3ed6b82ff2e5449ec/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/bea85ef16405ba619305228d671c3268/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/14d8298226153527f8767e0cbd41eb55/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c965c6774062a1a39ce7711419539149/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8ee03ee3a0b8f95ed9a9ca797bf2edf9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/9462bbf95247d82e49e02c2e77d57d9a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/bf6ae17cc148195d4ab99d0c06c4010e/AndroidManifest.xml:2:1-7:12
+INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:1:1-32:12
+INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:1:1-32:12
 	package
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:4:2-27
-		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:4:2-27
+		INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-32:12
-		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+		INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:1:1-32:12
+		INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:3:2-48
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:3:2-48
 	android:versionCode
-		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:1:1-32:12
-		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+		INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:1:1-32:12
+		INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:2:2-60
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:2:2-60
 application
-ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:5:2-31:16
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\c470f3ca96914f20e0caa63eb633a62d\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\c470f3ca96914f20e0caa63eb633a62d\AndroidManifest.xml:22:5-20
-MERGED from [com.nhaarman.supertooltips:library:3.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\387ebb31e336c96bb08f43861497acf0\AndroidManifest.xml:4:5-46
-MERGED from [com.nhaarman.supertooltips:library:3.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\387ebb31e336c96bb08f43861497acf0\AndroidManifest.xml:4:5-46
-MERGED from [com.google.firebase:firebase-core:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\599ff7650d33d8741d14692ba289dcbe\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-core:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\599ff7650d33d8741d14692ba289dcbe\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-database:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\eb5f14dfaf0ea57ef4fb58296dc88aa8\AndroidManifest.xml:28:5-34:19
-MERGED from [com.google.firebase:firebase-database:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\eb5f14dfaf0ea57ef4fb58296dc88aa8\AndroidManifest.xml:28:5-34:19
-MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\848b39be636b5709c151d036cc6e9386\AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\848b39be636b5709c151d036cc6e9386\AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\e5d5e62bb8745e16c44f158bf273aa80\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\e5d5e62bb8745e16c44f158bf273aa80\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-analytics:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\d089de81361d4a7585aba9dd9b6d9599\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-analytics:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\d089de81361d4a7585aba9dd9b6d9599\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f110537fa299875c7f0723b695852a1b\AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f110537fa299875c7f0723b695852a1b\AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:28:5-45:19
-MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:28:5-45:19
-MERGED from [com.google.firebase:firebase-common:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\08a580c09ba6e81136d67ab86b578ad8\AndroidManifest.xml:11:5-17:19
-MERGED from [com.google.firebase:firebase-common:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\08a580c09ba6e81136d67ab86b578ad8\AndroidManifest.xml:11:5-17:19
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\6bdfc35d24691ec8ddcea500eafb6f2f\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\6bdfc35d24691ec8ddcea500eafb6f2f\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\37233b345d718516862457d6dc8260c7\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\37233b345d718516862457d6dc8260c7\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\0933ef997f6d8752407ffa0380c0224a\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\0933ef997f6d8752407ffa0380c0224a\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\99cb5539726a0f9cc43acd9ec0f35124\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\99cb5539726a0f9cc43acd9ec0f35124\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\5b9e318c0334d036d33d764ad15c94c7\AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\5b9e318c0334d036d33d764ad15c94c7\AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\1c8fe23d0889ae43b79ad2a3efdc02cd\AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\1c8fe23d0889ae43b79ad2a3efdc02cd\AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\e1e21fa21dd4a303285db4052ba0dee6\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\e1e21fa21dd4a303285db4052ba0dee6\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\2b85566c6a7c0cd7bf782c4cf5d19c94\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\2b85566c6a7c0cd7bf782c4cf5d19c94\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\bf11a32736a5a221e1ea33afe058d595\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\bf11a32736a5a221e1ea33afe058d595\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\52a42b51404bcb23f23b3e40e9187d2f\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\52a42b51404bcb23f23b3e40e9187d2f\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\6d4ac2a73d18eb36c359603f10791a50\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\6d4ac2a73d18eb36c359603f10791a50\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.0.1] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\7e84f57ddadf8158e41e0a39ec249d25\AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.1] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\7e84f57ddadf8158e41e0a39ec249d25\AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\564b2d4f556adc243577062ce13956c4\AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\564b2d4f556adc243577062ce13956c4\AndroidManifest.xml:22:5-23:19
+ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:5:2-31:16
+MERGED from [com.google.android.material:material:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d4b1390155205baf17c409841fc00886/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d4b1390155205baf17c409841fc00886/AndroidManifest.xml:22:5-20
+MERGED from [com.nhaarman.supertooltips:library:3.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/28b8c5b890cdbf0bf60596a071080959/AndroidManifest.xml:4:5-46
+MERGED from [com.nhaarman.supertooltips:library:3.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/28b8c5b890cdbf0bf60596a071080959/AndroidManifest.xml:4:5-46
+MERGED from [com.google.firebase:firebase-core:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/20b509bd33eb1af56a57295810b3cd16/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/20b509bd33eb1af56a57295810b3cd16/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-database:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/fe947d905d71749118000fb0628ee819/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-database:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/fe947d905d71749118000fb0628ee819/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/18eb509b80ec5dc5937d3d3e041b51c5/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/18eb509b80ec5dc5937d3d3e041b51c5/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/4e5be4d2d64b6a6d6b78026b3c8ae769/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/4e5be4d2d64b6a6d6b78026b3c8ae769/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d661a4cd9e7473fb262d8cb7dae429b1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d661a4cd9e7473fb262d8cb7dae429b1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1b3bfb5f001ca8dc66dc2d3dc38ea7a5/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1b3bfb5f001ca8dc66dc2d3dc38ea7a5/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/eba430fd571db40b08ca983226d3479b/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/eba430fd571db40b08ca983226d3479b/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/75638c4f27a4321a162c114ab9d73d8a/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/75638c4f27a4321a162c114ab9d73d8a/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/bcc5109c3961cf5e9122f5f724bec1e3/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/bcc5109c3961cf5e9122f5f724bec1e3/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/7dfd942acfff0db6b0e21db276064e97/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/7dfd942acfff0db6b0e21db276064e97/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/b9efb4bb0b9a80b48a0619185724df03/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/b9efb4bb0b9a80b48a0619185724df03/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8714e17c574ae6258f82ff53ce7b6560/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8714e17c574ae6258f82ff53ce7b6560/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/e01aef5d5e4b8894deec61a79cfb8eeb/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/e01aef5d5e4b8894deec61a79cfb8eeb/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8d2f70b1e6d63e3a571effb63d5a7893/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8d2f70b1e6d63e3a571effb63d5a7893/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/7d605f659229e5e160b80cc352819a71/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/7d605f659229e5e160b80cc352819a71/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/75b0bb1309c249902ab5621b6f0d6c02/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/75b0bb1309c249902ab5621b6f0d6c02/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/5f58bdace3db50cdb6b7a32f5d063f60/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/5f58bdace3db50cdb6b7a32f5d063f60/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d271825b00e6929761cf0eec456bfa00/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d271825b00e6929761cf0eec456bfa00/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.1] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/56508d61e365818e284f7fa16b255fa6/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/56508d61e365818e284f7fa16b255fa6/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/4e62f54b9c6f6ddddd11d2a8c8694a44/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/4e62f54b9c6f6ddddd11d2a8c8694a44/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.1] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\7e84f57ddadf8158e41e0a39ec249d25\AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.0.1] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/56508d61e365818e284f7fa16b255fa6/AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:7:3-24
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:7:3-24
 	android:icon
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:8:3-36
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:8:3-36
 	android:allowBackup
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:6:3-30
-		REJECTED from [com.nhaarman.supertooltips:library:3.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\387ebb31e336c96bb08f43861497acf0\AndroidManifest.xml:4:18-44
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:6:3-30
+		REJECTED from [com.nhaarman.supertooltips:library:3.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/28b8c5b890cdbf0bf60596a071080959/AndroidManifest.xml:4:18-44
 	android:theme
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:9:3-37
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:9:3-37
 	tools:replace
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:10:3-38
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:10:3-38
 activity#com.app.feirapp.MainActivity
-ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:12:3-22:14
+ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:12:3-22:14
 	android:screenOrientation
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:16:4-40
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:16:4-40
 	android:windowSoftInputMode
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:17:4-51
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:17:4-51
 	android:configChanges
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:14:4-50
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:14:4-50
 	android:theme
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:15:4-38
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:15:4-38
 	android:name
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:13:4-47
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:13:4-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:18:4-21:20
+ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:18:4-21:20
 action#android.intent.action.MAIN
-ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:19:5-56
+ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:19:5-56
 	android:name
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:19:13-54
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:19:13-54
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:20:5-64
+ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:20:5-64
 	android:name
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:20:15-62
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:20:15-62
 activity#com.app.feirapp.ShareActivity
-ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:24:3-29:14
+ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:24:3-29:14
 	android:parentActivityName
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:25:4-46
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:25:4-46
 	android:name
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:24:13-42
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:24:13-42
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:26:4-28:37
+ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:26:4-28:37
 	android:value
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:28:5-34
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:28:5-34
 	android:name
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml:27:5-51
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml:27:5-51
 uses-sdk
-INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\c470f3ca96914f20e0caa63eb633a62d\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\c470f3ca96914f20e0caa63eb633a62d\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\a0591fb02244020412ea29d7426c5778\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\a0591fb02244020412ea29d7426c5778\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\55f25e6faa1a9a173aa37eec5aa709ff\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\55f25e6faa1a9a173aa37eec5aa709ff\AndroidManifest.xml:20:5-44
-MERGED from [com.nhaarman.supertooltips:library:3.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\387ebb31e336c96bb08f43861497acf0\AndroidManifest.xml:2:5-72
-MERGED from [com.nhaarman.supertooltips:library:3.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\387ebb31e336c96bb08f43861497acf0\AndroidManifest.xml:2:5-72
-MERGED from [com.google.firebase:firebase-core:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\599ff7650d33d8741d14692ba289dcbe\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-core:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\599ff7650d33d8741d14692ba289dcbe\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\eb5f14dfaf0ea57ef4fb58296dc88aa8\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-database:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\eb5f14dfaf0ea57ef4fb58296dc88aa8\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:21:5-44
-MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\848b39be636b5709c151d036cc6e9386\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\848b39be636b5709c151d036cc6e9386\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\e5d5e62bb8745e16c44f158bf273aa80\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\e5d5e62bb8745e16c44f158bf273aa80\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-analytics:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\d089de81361d4a7585aba9dd9b6d9599\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-analytics:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\d089de81361d4a7585aba9dd9b6d9599\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f110537fa299875c7f0723b695852a1b\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f110537fa299875c7f0723b695852a1b\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\08a580c09ba6e81136d67ab86b578ad8\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-common:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\08a580c09ba6e81136d67ab86b578ad8\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\b9ebf0a51f3c78b9e63964120e970049\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\b9ebf0a51f3c78b9e63964120e970049\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\46394e7685a424bc72b621a66cb5a3ee\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\46394e7685a424bc72b621a66cb5a3ee\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\ebffa81b5f5724884891354ad54782aa\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\ebffa81b5f5724884891354ad54782aa\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\6bdfc35d24691ec8ddcea500eafb6f2f\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\6bdfc35d24691ec8ddcea500eafb6f2f\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\37233b345d718516862457d6dc8260c7\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\37233b345d718516862457d6dc8260c7\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\0933ef997f6d8752407ffa0380c0224a\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\0933ef997f6d8752407ffa0380c0224a\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\99cb5539726a0f9cc43acd9ec0f35124\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\99cb5539726a0f9cc43acd9ec0f35124\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\5b9e318c0334d036d33d764ad15c94c7\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\5b9e318c0334d036d33d764ad15c94c7\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\1c8fe23d0889ae43b79ad2a3efdc02cd\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\1c8fe23d0889ae43b79ad2a3efdc02cd\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\e1e21fa21dd4a303285db4052ba0dee6\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\e1e21fa21dd4a303285db4052ba0dee6\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\2b85566c6a7c0cd7bf782c4cf5d19c94\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\2b85566c6a7c0cd7bf782c4cf5d19c94\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\bf11a32736a5a221e1ea33afe058d595\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\bf11a32736a5a221e1ea33afe058d595\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\52a42b51404bcb23f23b3e40e9187d2f\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\52a42b51404bcb23f23b3e40e9187d2f\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\6d4ac2a73d18eb36c359603f10791a50\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\6d4ac2a73d18eb36c359603f10791a50\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\5bd6e82a41e46b416beeb99baffeef0c\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\5bd6e82a41e46b416beeb99baffeef0c\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\32682b1882f0e15c275250c150fe86cc\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\32682b1882f0e15c275250c150fe86cc\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\036ad6db6e0d7f128a1d97a7714f3720\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\036ad6db6e0d7f128a1d97a7714f3720\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\d2fd474203557a71db93d173d08f981a\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\d2fd474203557a71db93d173d08f981a\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\b76f821ff68e77211734e487ae568c98\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\b76f821ff68e77211734e487ae568c98\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\4dbb72c727276749f707cdc61256fc89\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\4dbb72c727276749f707cdc61256fc89\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\8184ca70842ab7730c02c1d220be6df5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\8184ca70842ab7730c02c1d220be6df5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\ff90fdccba1201f3d13b2af88ec3c7e1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\ff90fdccba1201f3d13b2af88ec3c7e1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\e64d5f8969bb05048939ebfdfd5bddfe\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\e64d5f8969bb05048939ebfdfd5bddfe\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\fc79bd70bbd9c9e920bcd171c575bc2c\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\fc79bd70bbd9c9e920bcd171c575bc2c\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\a67bf40e494619ad7734d4dba60073de\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\a67bf40e494619ad7734d4dba60073de\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\46016614f67530d4486bf44df2996990\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\46016614f67530d4486bf44df2996990\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\46686fdd3f816d7b5d62fc1a058da724\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\46686fdd3f816d7b5d62fc1a058da724\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\46d6b6ba33897bd00d419546ff9337cf\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\46d6b6ba33897bd00d419546ff9337cf\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\a384daa4e7fbe0fe2f0953c581dd8bb7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\a384daa4e7fbe0fe2f0953c581dd8bb7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\7e84f57ddadf8158e41e0a39ec249d25\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\7e84f57ddadf8158e41e0a39ec249d25\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\564b2d4f556adc243577062ce13956c4\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\564b2d4f556adc243577062ce13956c4\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\71a876dbb40135f0a6395d9713abbd4d\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\71a876dbb40135f0a6395d9713abbd4d\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\17ff96f847c8bd3bcedc5108abd40290\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\17ff96f847c8bd3bcedc5108abd40290\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\8e4705919a82ba16f43aa8247ce5743e\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\8e4705919a82ba16f43aa8247ce5743e\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\d7b2800fe36b16adb057dd164516fcb8\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\d7b2800fe36b16adb057dd164516fcb8\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\de99a1dae9f55cdbd53cf85885f87684\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\de99a1dae9f55cdbd53cf85885f87684\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\04f3264fe42d021519179195a99bd4f0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\04f3264fe42d021519179195a99bd4f0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\19cc6cd88ac602b44668166f98f53d3a\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\19cc6cd88ac602b44668166f98f53d3a\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\923f7772300e8cca3ec27ca5c48a1a00\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\923f7772300e8cca3ec27ca5c48a1a00\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\95510d0bb78d76c03d982f0d2bd8afb3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\95510d0bb78d76c03d982f0d2bd8afb3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\95280edc6f526e8309b86fb33f1e3686\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\95280edc6f526e8309b86fb33f1e3686\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\647efc196f947ba2bf9b2d1e9a952e23\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\647efc196f947ba2bf9b2d1e9a952e23\AndroidManifest.xml:5:5-44
-INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d4b1390155205baf17c409841fc00886/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d4b1390155205baf17c409841fc00886/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/703752dfe346cc5c5a8fe5e278c6263d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/703752dfe346cc5c5a8fe5e278c6263d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/da34a1d2d2b0284feef7672e107f47d0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/da34a1d2d2b0284feef7672e107f47d0/AndroidManifest.xml:20:5-44
+MERGED from [com.nhaarman.supertooltips:library:3.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/28b8c5b890cdbf0bf60596a071080959/AndroidManifest.xml:2:5-72
+MERGED from [com.nhaarman.supertooltips:library:3.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/28b8c5b890cdbf0bf60596a071080959/AndroidManifest.xml:2:5-72
+MERGED from [com.google.firebase:firebase-core:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/20b509bd33eb1af56a57295810b3cd16/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/20b509bd33eb1af56a57295810b3cd16/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/fe947d905d71749118000fb0628ee819/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/fe947d905d71749118000fb0628ee819/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/18eb509b80ec5dc5937d3d3e041b51c5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/18eb509b80ec5dc5937d3d3e041b51c5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/4e5be4d2d64b6a6d6b78026b3c8ae769/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/4e5be4d2d64b6a6d6b78026b3c8ae769/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d661a4cd9e7473fb262d8cb7dae429b1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d661a4cd9e7473fb262d8cb7dae429b1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1b3bfb5f001ca8dc66dc2d3dc38ea7a5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1b3bfb5f001ca8dc66dc2d3dc38ea7a5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/eba430fd571db40b08ca983226d3479b/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/eba430fd571db40b08ca983226d3479b/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/b237f8872815e27545367b9e21507cd3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/b237f8872815e27545367b9e21507cd3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c04d8e72dbc2d0ca96ee121b1fbaf06d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c04d8e72dbc2d0ca96ee121b1fbaf06d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1cd4758beda4f2d5ee44f20d512f114d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1cd4758beda4f2d5ee44f20d512f114d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/75638c4f27a4321a162c114ab9d73d8a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/75638c4f27a4321a162c114ab9d73d8a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/bcc5109c3961cf5e9122f5f724bec1e3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/bcc5109c3961cf5e9122f5f724bec1e3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/7dfd942acfff0db6b0e21db276064e97/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/7dfd942acfff0db6b0e21db276064e97/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/b9efb4bb0b9a80b48a0619185724df03/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/b9efb4bb0b9a80b48a0619185724df03/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8714e17c574ae6258f82ff53ce7b6560/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8714e17c574ae6258f82ff53ce7b6560/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/e01aef5d5e4b8894deec61a79cfb8eeb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/e01aef5d5e4b8894deec61a79cfb8eeb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8d2f70b1e6d63e3a571effb63d5a7893/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8d2f70b1e6d63e3a571effb63d5a7893/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/7d605f659229e5e160b80cc352819a71/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/7d605f659229e5e160b80cc352819a71/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/75b0bb1309c249902ab5621b6f0d6c02/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/75b0bb1309c249902ab5621b6f0d6c02/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/5f58bdace3db50cdb6b7a32f5d063f60/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/5f58bdace3db50cdb6b7a32f5d063f60/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d271825b00e6929761cf0eec456bfa00/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d271825b00e6929761cf0eec456bfa00/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/7895ad9a5bb8217926c1de030911d4c3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/7895ad9a5bb8217926c1de030911d4c3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/0ee7f79d8a0e5e2d5a5b7eafe6858281/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/0ee7f79d8a0e5e2d5a5b7eafe6858281/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/6d04773ce9a12905ab245597f8f254fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/6d04773ce9a12905ab245597f8f254fc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/776f168f1552205796f24d96200413e0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/776f168f1552205796f24d96200413e0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/55555be1ca52587973790b415b9d283d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/55555be1ca52587973790b415b9d283d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/fe5367ce1dbb701a7a51a83c09989983/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/fe5367ce1dbb701a7a51a83c09989983/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1234963af861619535a88936003c8c23/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1234963af861619535a88936003c8c23/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/0ca6c7f8127ef9028b0526429e1db6f1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/0ca6c7f8127ef9028b0526429e1db6f1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8224ceae26aebeaa661d50a564d354f4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8224ceae26aebeaa661d50a564d354f4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/7296079ccd03efb50937b7c23272f998/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/7296079ccd03efb50937b7c23272f998/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/60e1388183e4b3a40fd2697fa2f0c61b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/60e1388183e4b3a40fd2697fa2f0c61b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/b554f494bee131ef01a6d3f83f050835/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/b554f494bee131ef01a6d3f83f050835/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/83b161f2cfd531019c31446f0ddfdbc7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/83b161f2cfd531019c31446f0ddfdbc7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/382ac61e978dd77c273d4731d3e5bffd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/382ac61e978dd77c273d4731d3e5bffd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/06ed2b90d02c650b719731df27b2db59/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/06ed2b90d02c650b719731df27b2db59/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/56508d61e365818e284f7fa16b255fa6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/56508d61e365818e284f7fa16b255fa6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/4e62f54b9c6f6ddddd11d2a8c8694a44/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/4e62f54b9c6f6ddddd11d2a8c8694a44/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/e154859d03541b849abbd7749278e69c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/e154859d03541b849abbd7749278e69c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/2bf697ebe1179b61aa22fc93c970ebf7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/2bf697ebe1179b61aa22fc93c970ebf7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d9649f61fbb38bf141440e55f4f47593/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d9649f61fbb38bf141440e55f4f47593/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/976d809931190c28063803767462e9ff/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/976d809931190c28063803767462e9ff/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/6608ae893e9a80c3ed6b82ff2e5449ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/6608ae893e9a80c3ed6b82ff2e5449ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/bea85ef16405ba619305228d671c3268/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/bea85ef16405ba619305228d671c3268/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/14d8298226153527f8767e0cbd41eb55/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/14d8298226153527f8767e0cbd41eb55/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c965c6774062a1a39ce7711419539149/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c965c6774062a1a39ce7711419539149/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8ee03ee3a0b8f95ed9a9ca797bf2edf9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8ee03ee3a0b8f95ed9a9ca797bf2edf9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/9462bbf95247d82e49e02c2e77d57d9a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/9462bbf95247d82e49e02c2e77d57d9a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/bf6ae17cc148195d4ab99d0c06c4010e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/bf6ae17cc148195d4ab99d0c06c4010e/AndroidManifest.xml:5:5-44
+INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+		INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\joism\Documents\GitHub\FeirApp-P3\app\src\main\AndroidManifest.xml
+		INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/trackingtrade/IF1001-FeirApp/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-database:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\eb5f14dfaf0ea57ef4fb58296dc88aa8\AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f110537fa299875c7f0723b695852a1b\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f110537fa299875c7f0723b695852a1b\AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\5b9e318c0334d036d33d764ad15c94c7\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\5b9e318c0334d036d33d764ad15c94c7\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\1c8fe23d0889ae43b79ad2a3efdc02cd\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\1c8fe23d0889ae43b79ad2a3efdc02cd\AndroidManifest.xml:24:5-79
+ADDED from [com.google.firebase:firebase-database:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/fe947d905d71749118000fb0628ee819/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1b3bfb5f001ca8dc66dc2d3dc38ea7a5/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1b3bfb5f001ca8dc66dc2d3dc38ea7a5/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8714e17c574ae6258f82ff53ce7b6560/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8714e17c574ae6258f82ff53ce7b6560/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/e01aef5d5e4b8894deec61a79cfb8eeb/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/e01aef5d5e4b8894deec61a79cfb8eeb/AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-database:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\eb5f14dfaf0ea57ef4fb58296dc88aa8\AndroidManifest.xml:25:22-76
+		ADDED from [com.google.firebase:firebase-database:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/fe947d905d71749118000fb0628ee819/AndroidManifest.xml:25:22-76
 uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-database:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\eb5f14dfaf0ea57ef4fb58296dc88aa8\AndroidManifest.xml:26:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f110537fa299875c7f0723b695852a1b\AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f110537fa299875c7f0723b695852a1b\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\5b9e318c0334d036d33d764ad15c94c7\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\5b9e318c0334d036d33d764ad15c94c7\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\1c8fe23d0889ae43b79ad2a3efdc02cd\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\1c8fe23d0889ae43b79ad2a3efdc02cd\AndroidManifest.xml:23:5-67
+ADDED from [com.google.firebase:firebase-database:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/fe947d905d71749118000fb0628ee819/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1b3bfb5f001ca8dc66dc2d3dc38ea7a5/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1b3bfb5f001ca8dc66dc2d3dc38ea7a5/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8714e17c574ae6258f82ff53ce7b6560/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8714e17c574ae6258f82ff53ce7b6560/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/e01aef5d5e4b8894deec61a79cfb8eeb/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/e01aef5d5e4b8894deec61a79cfb8eeb/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-database:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\eb5f14dfaf0ea57ef4fb58296dc88aa8\AndroidManifest.xml:26:22-64
+		ADDED from [com.google.firebase:firebase-database:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/fe947d905d71749118000fb0628ee819/AndroidManifest.xml:26:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-database:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\eb5f14dfaf0ea57ef4fb58296dc88aa8\AndroidManifest.xml:29:9-33:19
-MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:33:9-39:19
-MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:33:9-39:19
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f110537fa299875c7f0723b695852a1b\AndroidManifest.xml:27:9-33:19
-MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f110537fa299875c7f0723b695852a1b\AndroidManifest.xml:27:9-33:19
-MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:29:9-35:19
+ADDED from [com.google.firebase:firebase-database:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/fe947d905d71749118000fb0628ee819/AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1b3bfb5f001ca8dc66dc2d3dc38ea7a5/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1b3bfb5f001ca8dc66dc2d3dc38ea7a5/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:29:9-35:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:35:13-37
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-database:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\eb5f14dfaf0ea57ef4fb58296dc88aa8\AndroidManifest.xml:29:18-89
+		ADDED from [com.google.firebase:firebase-database:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/fe947d905d71749118000fb0628ee819/AndroidManifest.xml:29:18-89
 meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
-ADDED from [com.google.firebase:firebase-database:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\eb5f14dfaf0ea57ef4fb58296dc88aa8\AndroidManifest.xml:30:13-32:85
+ADDED from [com.google.firebase:firebase-database:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/fe947d905d71749118000fb0628ee819/AndroidManifest.xml:30:13-32:85
 	android:value
-		ADDED from [com.google.firebase:firebase-database:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\eb5f14dfaf0ea57ef4fb58296dc88aa8\AndroidManifest.xml:32:17-82
+		ADDED from [com.google.firebase:firebase-database:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/fe947d905d71749118000fb0628ee819/AndroidManifest.xml:32:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-database:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\eb5f14dfaf0ea57ef4fb58296dc88aa8\AndroidManifest.xml:31:17-109
+		ADDED from [com.google.firebase:firebase-database:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/fe947d905d71749118000fb0628ee819/AndroidManifest.xml:31:17-109
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
-ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:24:9-31:50
+ADDED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:26:13-46
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:26:13-46
 	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:28:13-44
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:28:13-44
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:27:13-36
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:27:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:29:13-102
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:29:13-102
 	android:theme
-		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:30:13-72
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:30:13-72
 	tools:replace
-		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:31:13-47
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:31:13-47
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:25:13-85
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:25:13-85
 meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:36:13-38:85
+ADDED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:36:13-38:85
 	android:value
-		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:38:17-82
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:38:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\397ef4a03409f6fe27d1b6a923b62b68\AndroidManifest.xml:37:17-109
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/037b250da0e2cfa1f0052399fe818cbf/AndroidManifest.xml:37:17-109
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\848b39be636b5709c151d036cc6e9386\AndroidManifest.xml:23:9-27:75
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/18eb509b80ec5dc5937d3d3e041b51c5/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\848b39be636b5709c151d036cc6e9386\AndroidManifest.xml:25:13-46
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/18eb509b80ec5dc5937d3d3e041b51c5/AndroidManifest.xml:25:13-46
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\848b39be636b5709c151d036cc6e9386\AndroidManifest.xml:26:13-37
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/18eb509b80ec5dc5937d3d3e041b51c5/AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\848b39be636b5709c151d036cc6e9386\AndroidManifest.xml:27:13-72
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/18eb509b80ec5dc5937d3d3e041b51c5/AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\848b39be636b5709c151d036cc6e9386\AndroidManifest.xml:24:13-93
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/18eb509b80ec5dc5937d3d3e041b51c5/AndroidManifest.xml:24:13-93
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\848b39be636b5709c151d036cc6e9386\AndroidManifest.xml:33:9-36:110
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/18eb509b80ec5dc5937d3d3e041b51c5/AndroidManifest.xml:33:9-36:110
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\848b39be636b5709c151d036cc6e9386\AndroidManifest.xml:35:13-36
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/18eb509b80ec5dc5937d3d3e041b51c5/AndroidManifest.xml:35:13-36
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\848b39be636b5709c151d036cc6e9386\AndroidManifest.xml:36:13-107
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/18eb509b80ec5dc5937d3d3e041b51c5/AndroidManifest.xml:36:13-107
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\848b39be636b5709c151d036cc6e9386\AndroidManifest.xml:34:13-89
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/18eb509b80ec5dc5937d3d3e041b51c5/AndroidManifest.xml:34:13-89
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f110537fa299875c7f0723b695852a1b\AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:24:5-68
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\5b9e318c0334d036d33d764ad15c94c7\AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\5b9e318c0334d036d33d764ad15c94c7\AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\1c8fe23d0889ae43b79ad2a3efdc02cd\AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\1c8fe23d0889ae43b79ad2a3efdc02cd\AndroidManifest.xml:25:5-68
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1b3bfb5f001ca8dc66dc2d3dc38ea7a5/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8714e17c574ae6258f82ff53ce7b6560/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8714e17c574ae6258f82ff53ce7b6560/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/e01aef5d5e4b8894deec61a79cfb8eeb/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/e01aef5d5e4b8894deec61a79cfb8eeb/AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f110537fa299875c7f0723b695852a1b\AndroidManifest.xml:24:22-65
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1b3bfb5f001ca8dc66dc2d3dc38ea7a5/AndroidManifest.xml:24:22-65
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
-ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f110537fa299875c7f0723b695852a1b\AndroidManifest.xml:30:13-32:85
+ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1b3bfb5f001ca8dc66dc2d3dc38ea7a5/AndroidManifest.xml:30:13-32:85
 	android:value
-		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f110537fa299875c7f0723b695852a1b\AndroidManifest.xml:32:17-82
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1b3bfb5f001ca8dc66dc2d3dc38ea7a5/AndroidManifest.xml:32:17-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\f110537fa299875c7f0723b695852a1b\AndroidManifest.xml:31:17-139
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/1b3bfb5f001ca8dc66dc2d3dc38ea7a5/AndroidManifest.xml:31:17-139
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:26:5-82
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:26:22-79
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:26:22-79
 meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:33:17-96
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:33:17-96
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:37:9-44:20
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:37:9-44:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:39:13-36
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:39:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:40:13-73
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:40:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:38:13-78
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:38:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:41:13-43:29
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:41:13-43:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:42:17-81
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:42:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\86e250e414dd071f821a470c68383482\AndroidManifest.xml:42:25-78
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/c50d6a405da3e2ea81e1e8c594950978/AndroidManifest.xml:42:25-78
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\08a580c09ba6e81136d67ab86b578ad8\AndroidManifest.xml:12:9-16:39
+ADDED from [com.google.firebase:firebase-common:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/eba430fd571db40b08ca983226d3479b/AndroidManifest.xml:12:9-16:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\08a580c09ba6e81136d67ab86b578ad8\AndroidManifest.xml:14:13-72
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/eba430fd571db40b08ca983226d3479b/AndroidManifest.xml:14:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\08a580c09ba6e81136d67ab86b578ad8\AndroidManifest.xml:15:13-37
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/eba430fd571db40b08ca983226d3479b/AndroidManifest.xml:15:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\08a580c09ba6e81136d67ab86b578ad8\AndroidManifest.xml:16:13-36
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/eba430fd571db40b08ca983226d3479b/AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:18.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\08a580c09ba6e81136d67ab86b578ad8\AndroidManifest.xml:13:13-77
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/eba430fd571db40b08ca983226d3479b/AndroidManifest.xml:13:13-77
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\37233b345d718516862457d6dc8260c7\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/bcc5109c3961cf5e9122f5f724bec1e3/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\37233b345d718516862457d6dc8260c7\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/bcc5109c3961cf5e9122f5f724bec1e3/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\37233b345d718516862457d6dc8260c7\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/bcc5109c3961cf5e9122f5f724bec1e3/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\37233b345d718516862457d6dc8260c7\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/bcc5109c3961cf5e9122f5f724bec1e3/AndroidManifest.xml:24:13-79
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\5b9e318c0334d036d33d764ad15c94c7\AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\5b9e318c0334d036d33d764ad15c94c7\AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\1c8fe23d0889ae43b79ad2a3efdc02cd\AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\1c8fe23d0889ae43b79ad2a3efdc02cd\AndroidManifest.xml:26:5-110
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8714e17c574ae6258f82ff53ce7b6560/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8714e17c574ae6258f82ff53ce7b6560/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/e01aef5d5e4b8894deec61a79cfb8eeb/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/e01aef5d5e4b8894deec61a79cfb8eeb/AndroidManifest.xml:26:5-110
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:26:22-107
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:26:22-107
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:29:9-33:20
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:29:9-33:20
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:31:13-35
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:31:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:32:13-37
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:30:13-85
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:30:13-85
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:34:9-42:20
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\5b9e318c0334d036d33d764ad15c94c7\AndroidManifest.xml:29:9-37:20
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\5b9e318c0334d036d33d764ad15c94c7\AndroidManifest.xml:29:9-37:20
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\1c8fe23d0889ae43b79ad2a3efdc02cd\AndroidManifest.xml:29:9-37:20
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\1c8fe23d0889ae43b79ad2a3efdc02cd\AndroidManifest.xml:29:9-37:20
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8714e17c574ae6258f82ff53ce7b6560/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/8714e17c574ae6258f82ff53ce7b6560/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/e01aef5d5e4b8894deec61a79cfb8eeb/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/e01aef5d5e4b8894deec61a79cfb8eeb/AndroidManifest.xml:29:9-37:20
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:36:13-35
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:36:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:37:13-36
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:37:13-36
 	android:permission
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:38:13-69
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:38:13-69
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:35:13-100
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:35:13-100
 intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:39:13-41:29
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:39:13-41:29
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:40:17-79
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:40:17-79
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:40:25-76
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:40:25-76
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:44:9-47:40
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:44:9-47:40
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:46:13-35
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:46:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:47:13-37
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:45:13-84
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:45:13-84
 service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:48:9-52:72
+ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:48:9-52:72
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:50:13-35
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:50:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:51:13-37
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:51:13-37
 	android:permission
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:52:13-69
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:52:13-69
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\cc9afb1761e9d2a8af5aeab8866b5701\AndroidManifest.xml:49:13-87
+		ADDED from [com.google.android.gms:play-services-measurement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/3e272b98928c89c88375cad23ade39dc/AndroidManifest.xml:49:13-87
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\6d4ac2a73d18eb36c359603f10791a50\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d271825b00e6929761cf0eec456bfa00/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\6d4ac2a73d18eb36c359603f10791a50\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d271825b00e6929761cf0eec456bfa00/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\joism\.gradle\caches\transforms-2\files-2.1\6d4ac2a73d18eb36c359603f10791a50\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d271825b00e6929761cf0eec456bfa00/AndroidManifest.xml:24:13-58

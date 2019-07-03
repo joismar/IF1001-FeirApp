@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "/home/trackingtrade/IF1001-FeirApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\848b39be636b5709c151d036cc6e9386\\res\\values-watch-v20\\values.xml",
+                    "source": "/home/trackingtrade/.gradle/caches/transforms-2/files-2.1/18eb509b80ec5dc5937d3d3e041b51c5/res/values-watch-v20/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\55f25e6faa1a9a173aa37eec5aa709ff\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "/home/trackingtrade/.gradle/caches/transforms-2/files-2.1/da34a1d2d2b0284feef7672e107f47d0/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

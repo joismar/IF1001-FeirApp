@@ -12,11 +12,11 @@ public final class R {
     public static final class dimen {
         private dimen() {}
 
-        public static final int bg_tooltip_padding_bottom = 0x7f06004c;
-        public static final int bg_tooltip_padding_left = 0x7f06004d;
-        public static final int bg_tooltip_padding_right = 0x7f06004e;
-        public static final int bg_tooltip_padding_top = 0x7f06004f;
-        public static final int bg_tooltip_pointer_padding_bottom = 0x7f060050;
+        public static final int bg_tooltip_padding_bottom = 0x7f06004b;
+        public static final int bg_tooltip_padding_left = 0x7f06004c;
+        public static final int bg_tooltip_padding_right = 0x7f06004d;
+        public static final int bg_tooltip_padding_top = 0x7f06004e;
+        public static final int bg_tooltip_pointer_padding_bottom = 0x7f06004f;
     }
     public static final class drawable {
         private drawable() {}
