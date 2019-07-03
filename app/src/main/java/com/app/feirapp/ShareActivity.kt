@@ -20,12 +20,14 @@ import android.widget.TextView
 import com.google.android.gms.common.SignInButton
 import com.google.android.gms.common.api.ResultCallback
 import com.google.android.gms.common.api.Status
+import com.google.firebase.FirebaseError
 import com.google.firebase.auth.FirebaseUser
-import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.*
 import kotlinx.android.synthetic.main.main.*
 import kotlinx.android.synthetic.main.signin_layout.*
 import com.google.firebase.database.Logger.Level
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 
 
 class ShareActivity : AppCompatActivity() {
@@ -44,6 +46,8 @@ class ShareActivity : AppCompatActivity() {
 
     // TextView to Show Login User Email and Name.
     lateinit var LoginUserName: TextView
+
+    lateinit var carrinhoCompartilhado: Any
 
     private var database: FirebaseDatabase? = null
     private var persistenceInitialized = false
@@ -101,10 +105,34 @@ class ShareActivity : AppCompatActivity() {
     public override fun onStart() {
         super.onStart()
         // Check if user is signed in (non-null) and update UI accordingly.
+
         val currentUser = firebaseAuth.currentUser
+        val currentEmail = firebaseAuth.currentUser?.email.toString()
+
+        val emailRef = database!!.reference.child("shares")
+        val queryRef = emailRef.orderByChild("email").equalTo(currentEmail)
+
+        queryRef.addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(p0: DataSnapshot) {
+                val children = p0!!.children
+                // This returns the correct child count...
+                println("count: "+p0.children.count().toString())
+                children.forEach {
+                    carrinhoCompartilhado = it.children
+                    println(carrinhoCompartilhado)
+                    println(it.toString())
+                    println(currentEmail)
+                }
+            }
+
+            override fun onCancelled(p0: DatabaseError) {
+                println(p0!!.message)
+            }
+        })
 
         updateUI(currentUser)
     }
+
 
     // Sign In function Starts From Here.
     fun UserSignInMethod() {
@@ -145,6 +173,7 @@ class ShareActivity : AppCompatActivity() {
                         userEmail!!.setOnEditorActionListener { v, actionId, event ->
                             if (actionId == EditorInfo.IME_ACTION_SEND) {
                                 compartilharLista(firebaseUser, userEmail.text.toString())
+                                verifyShare(firebaseAuth.currentUser?.email.toString())
                                 true
                             } else {
                                 false
@@ -157,12 +186,33 @@ class ShareActivity : AppCompatActivity() {
                 }
     }
 
-    private fun compartilharLista(firebaseUser: FirebaseUser, userEmail: String) {
-        val main = this.intent
-        val produtosArrayList = main.getParcelableArrayListExtra<Parcelable>("produtosArrayList") as ArrayList<Produto>
+    fun verifyShare(currentEmail: String) {
+        val emailRef = database!!.reference.child("shares")
+        val queryRef = emailRef.orderByChild("email").equalTo(currentEmail)
 
-        database!!.reference.child("shares").child(firebaseUser.uid).setValue(produtosArrayList)
-        database!!.reference.child("shares").child(firebaseUser.uid).setValue(userEmail)
+        queryRef.addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(p0: DataSnapshot) {
+                val children = p0!!.children
+                // This returns the correct child count...
+                println("count: "+p0.children.count().toString())
+                children.forEach {
+                    println(it.children.toString())
+                    println(currentEmail)
+                }
+            }
+
+            override fun onCancelled(p0: DatabaseError) {
+                println(p0!!.message)
+            }
+        })
+    }
+
+    private fun compartilharLista(firebaseUser: FirebaseUser, userEmail: String) {
+        val main: Bundle? = intent.extras
+        val produtosArrayList = main?.getString("produtosArrayList")
+
+        database!!.reference.child("shares").child(firebaseUser.uid).child("carrinho").setValue(produtosArrayList)
+        database!!.reference.child("shares").child(firebaseUser.uid).child("email").setValue(userEmail)
     }
 
     fun UserSignOutFunction() {

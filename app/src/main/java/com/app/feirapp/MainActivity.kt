@@ -132,11 +132,14 @@ class MainActivity : AppCompatActivity() {
         }
 
         share.setOnClickListener {
+            val gson = Gson()
+            val jsonCarrinho = gson.toJson(produtosArrayList)
+
             // Chamar login para compartilhamento da feira
             // INICIANDO ATIVIDADE
-            val intent = Intent(this, ShareActivity::class.java).apply {}
+            val intent = Intent(this, ShareActivity::class.java)
             // MANDANDO A LISTA
-            intent.putParcelableArrayListExtra("produtosArrayList", produtosArrayList)
+            intent.putExtra("produtosArrayList", jsonCarrinho)
             startActivity(intent)
         }
 
@@ -316,6 +319,7 @@ class MainActivity : AppCompatActivity() {
         // Edita o produto
         TODO("Editar produto")
     }
+
 
     // RECUPERA PRODUTOS DO ARQUIVO
     private fun carregarPreferencias() {
