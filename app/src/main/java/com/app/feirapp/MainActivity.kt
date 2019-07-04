@@ -277,8 +277,7 @@ class MainActivity : AppCompatActivity() {
         title = "FeirApp"
 
         date = Calendar.getInstance()
-
-        carrinhoLista?.adapter = CarrinhoAdapter(produtosArrayList, this)
+       carrinhoLista?.adapter = CarrinhoAdapter(produtosArrayList, this)
 
         comprasLista?.adapter = ListaAdapter(listaArrayList, this)
 
