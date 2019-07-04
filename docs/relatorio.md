@@ -15,9 +15,10 @@ Dar ao usuário a possibilidade de utilizar uma calculadora moderna para organiz
 - Lista de Compra (Listagem de produtos)
 - Compartilhamento (Uma tentativa de compartilhar com outro usuário para edição em tempo real e/ou offline)
 
-#### Banco de Dados
+#### Banco de Dados e Bibliotecas
 
-- Memória Interna do Dispositivo
+- Gson (Biblioteca)
+- Memória Interna do Dispositivo (Banco de Dados)
 - [Firebase](https://firebase.google.com/) (Deveria ser utilizado para o compartilhamento e persistência dos dados do usuário, mas não ficou finalizado)
 
 #### Layouts
