@@ -14,159 +14,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d68048b-3023-44c0-a7fb-5baefe04dc00" name="Default" comment="Alterações nos dados do usuário">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/app/feirapp/ShareAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/app/feirapp/User.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/sharelista.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7d68048b-3023-44c0-a7fb-5baefe04dc00" name="Default" comment="Compartilhamento pra database funcionando...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$NumberTextWatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$NumberTextWatcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$carregarPreferencias$type$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$carregarPreferencias$type$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$initialize$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$initialize$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$initialize$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$initialize$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$initialize$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$initialize$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$initialize$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$initialize$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$initialize$7$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$initialize$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$initializeLogic$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$initializeLogic$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$initializeLogic$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity$initializeLogic$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/ShareActivity$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/ShareActivity$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/ShareActivity$FirebaseUserAuth$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/ShareActivity$FirebaseUserAuth$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/ShareActivity$FirebaseUserAuth$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/ShareActivity$FirebaseUserAuth$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/ShareActivity$UserSignOutFunction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/ShareActivity$UserSignOutFunction$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/ShareActivity$onCreate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/ShareActivity$onCreate$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/ShareActivity$onCreate$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/ShareActivity$onCreate$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/ShareActivity$onCreate$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/ShareActivity$onCreate$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/ShareActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/app/feirapp/ShareActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/Rrx2Vr543QGR9mJ0HOBCzcp85nc=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/Rrx2Vr543QGR9mJ0HOBCzcp85nc=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/zip-cache/Rrx2Vr543QGR9mJ0HOBCzcp85nc=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/zip-cache/Rrx2Vr543QGR9mJ0HOBCzcp85nc=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_signin_layout.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_signin_layout.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/9/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/9/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$NumberTextWatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$NumberTextWatcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$carregarPreferencias$type$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$carregarPreferencias$type$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$initialize$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$initialize$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$initialize$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$initialize$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$initialize$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$initialize$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$initialize$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$initialize$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$initialize$7$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$initialize$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$initializeLogic$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$initializeLogic$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$initializeLogic$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity$initializeLogic$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/ShareActivity$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/ShareActivity$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/ShareActivity$FirebaseUserAuth$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/ShareActivity$FirebaseUserAuth$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/ShareActivity$FirebaseUserAuth$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/ShareActivity$FirebaseUserAuth$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/ShareActivity$UserSignOutFunction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/ShareActivity$UserSignOutFunction$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/ShareActivity$onCreate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/ShareActivity$onCreate$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/ShareActivity$onCreate$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/ShareActivity$onCreate$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/ShareActivity$onCreate$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/ShareActivity$onCreate$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/ShareActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/app/feirapp/ShareActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/__content__.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$NumberTextWatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$NumberTextWatcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$carregarPreferencias$type$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$carregarPreferencias$type$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$initialize$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$initialize$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$initialize$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$initialize$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$initialize$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$initialize$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$initialize$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$initialize$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$initialize$7$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$initialize$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$initializeLogic$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$initializeLogic$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$initializeLogic$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity$initializeLogic$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/ShareActivity$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/ShareActivity$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/ShareActivity$FirebaseUserAuth$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/ShareActivity$FirebaseUserAuth$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/ShareActivity$FirebaseUserAuth$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/ShareActivity$FirebaseUserAuth$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/ShareActivity$UserSignOutFunction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/ShareActivity$UserSignOutFunction$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/ShareActivity$onCreate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/ShareActivity$onCreate$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/ShareActivity$onCreate$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/ShareActivity$onCreate$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/ShareActivity$onCreate$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/ShareActivity$onCreate$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/ShareActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/app/feirapp/ShareActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/feirapp/CarrinhoAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/feirapp/CarrinhoAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/feirapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/feirapp/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/feirapp/ShareActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/feirapp/ShareActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/signin_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/signin_layout.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -206,16 +55,16 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/feirapp/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
-              <caret line="135" column="9" lean-forward="true" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
+              <caret line="135" column="9" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/feirapp/ShareActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="190" lean-forward="true" selection-start-line="190" selection-end-line="190" />
+            <state relative-caret-position="2771">
+              <caret line="205" lean-forward="true" selection-start-line="205" selection-end-line="205" />
               <folding>
                 <element signature="e#25#1187#0" expanded="true" />
               </folding>
@@ -247,12 +96,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
           <provider selected="true" editor-type-id="android-designer2" />
           <provider editor-type-id="text-editor">
             <state relative-caret-position="5304">
-              <caret line="312" column="51" selection-start-line="312" selection-start-column="51" selection-end-line="312" selection-end-column="51" />
+              <caret line="313" column="51" selection-start-line="313" selection-start-column="51" selection-end-line="313" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -272,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/feirapp/ListaAdapter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-952">
-              <caret line="17" column="153" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="153" />
+            <state relative-caret-position="-927">
+              <caret line="17" column="153" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="153" />
             </state>
           </provider>
         </entry>
@@ -281,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/feirapp/CarrinhoAdapter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+            <state relative-caret-position="-408">
+              <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -685,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562109865695</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Compartilhamento pra database funcionando...">
+      <created>1562208396830</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1562208396930</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -699,9 +555,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.44801715" visible="true" weight="0.13859275" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.44801715" visible="true" weight="0.13859275" />
       <window_info id="Structure" order="1" sideWeight="0.4919355" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" sideWeight="0.5519829" side_tool="true" weight="0.14072494" />
@@ -712,17 +567,17 @@
       <window_info id="Resources Explorer" order="8" weight="0.2228145" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4946695" weight="0.21436228" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48667377" visible="true" weight="0.24758843" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48614073" weight="0.24758843" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49413645" weight="0.29689175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4760128" weight="0.23151125" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.5133262" side_tool="true" weight="0.37299034" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.5618337" side_tool="true" visible="true" weight="0.50589496" />
       <window_info anchor="bottom" id="Android Profiler" order="8" sideWeight="0.4989339" weight="0.3290461" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50852877" side_tool="true" weight="0.27116826" />
       <window_info anchor="bottom" id="Logcat" order="10" sideWeight="0.47707888" weight="0.29689175" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.47547975" weight="0.3279743" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4392324" weight="0.33440515" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4749467" weight="0.3279743" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.43816632" visible="true" weight="0.50589496" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.48200515" weight="0.30364373" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -823,7 +678,8 @@
     <MESSAGE value="Alterações na tela de Login" />
     <MESSAGE value="Fazendo a database funcionar em partes..." />
     <MESSAGE value="Alterações nos dados do usuário" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alterações nos dados do usuário" />
+    <MESSAGE value="Compartilhamento pra database funcionando..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Compartilhamento pra database funcionando..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1115,32 +971,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/feirapp/CarrinhoAdapter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+        <state relative-caret-position="-408">
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/feirapp/ListaAdapter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-952">
-          <caret line="17" column="153" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="153" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/feirapp/ShareAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="e#25#225#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-927">
+          <caret line="17" column="153" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="153" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/feirapp/ShareActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="190" lean-forward="true" selection-start-line="190" selection-end-line="190" />
+        <state relative-caret-position="2771">
+          <caret line="205" lean-forward="true" selection-start-line="205" selection-end-line="205" />
           <folding>
             <element signature="e#25#1187#0" expanded="true" />
           </folding>
@@ -1150,7 +996,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/feirapp/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="135" column="9" lean-forward="true" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
+          <caret line="135" column="9" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1166,7 +1012,17 @@
       <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="5304">
-          <caret line="312" column="51" selection-start-line="312" selection-start-column="51" selection-end-line="312" selection-end-column="51" />
+          <caret line="313" column="51" selection-start-line="313" selection-start-column="51" selection-end-line="313" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/app/feirapp/ShareAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="e#25#225#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
