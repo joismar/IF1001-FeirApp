@@ -20,14 +20,11 @@ import android.widget.TextView
 import com.google.android.gms.common.SignInButton
 import com.google.android.gms.common.api.ResultCallback
 import com.google.android.gms.common.api.Status
-import com.google.firebase.FirebaseError
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.database.*
 import kotlinx.android.synthetic.main.main.*
 import kotlinx.android.synthetic.main.signin_layout.*
 import com.google.firebase.database.Logger.Level
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
 
 
 class ShareActivity : AppCompatActivity() {
@@ -105,12 +102,10 @@ class ShareActivity : AppCompatActivity() {
     public override fun onStart() {
         super.onStart()
         // Check if user is signed in (non-null) and update UI accordingly.
-
         val currentUser = firebaseAuth.currentUser
 
         updateUI(currentUser)
     }
-
 
     // Sign In function Starts From Here.
     fun UserSignInMethod() {
@@ -167,9 +162,8 @@ class ShareActivity : AppCompatActivity() {
         val main: Bundle? = intent.extras
         val produtosArrayList = main?.getString("produtosArrayList")
 
-        database!!.reference.child("shares").child(userEmail.split(".")[0]).child("carrinho").setValue(produtosArrayList)
-        database!!.reference.child("shares").child(userEmail.split(".")[0]).child("to").setValue(firebaseAuth.currentUser?.email.toString())
-        database!!.reference.child("shares").child(userEmail.split(".")[0]).child("from").setValue(userEmail)
+        database!!.reference.child("shares").child(firebaseUser.uid).setValue(produtosArrayList)
+        database!!.reference.child("shares").child(firebaseUser.uid).setValue(userEmail)
     }
 
     fun UserSignOutFunction() {
@@ -200,23 +194,6 @@ class ShareActivity : AppCompatActivity() {
             loginSucessView.visibility = View.VISIBLE
             LoginUserName.text = "Olá " + user!!.displayName!!.toString() + ","
         }
-
-        val currentEmail = firebaseAuth.currentUser?.email.toString()
-
-        val emailRef = database!!.reference.child("shares").child(currentEmail.split(".")[0]).child("carrinho")
-        val queryRef = emailRef
-
-        queryRef.addListenerForSingleValueEvent(object : ValueEventListener {
-            override fun onDataChange(p0: DataSnapshot) {
-                carrinhoCompartilhado = p0!!.getValue()
-
-                println(carrinhoCompartilhado)
-            }
-
-            override fun onCancelled(p0: DatabaseError) {
-                println(p0!!.message)
-            }
-        })
     }
 
     companion object {

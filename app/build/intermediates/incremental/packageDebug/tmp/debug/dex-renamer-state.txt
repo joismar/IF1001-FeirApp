@@ -1,4 +1,4 @@
-#Wed Jul 03 13:52:12 BRT 2019
+#Wed Jul 03 22:08:30 BRT 2019
 base.0=/home/trackingtrade/IF1001-FeirApp/app/build/intermediates/dex/debug/mergeExtDexDebug/out
 path.1=classes.dex
 renamed.1=classes2.dex

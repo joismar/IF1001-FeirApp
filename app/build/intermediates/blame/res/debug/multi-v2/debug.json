@@ -1849,22 +1849,6 @@
             ]
         },
         {
-            "outputFile": "/home/trackingtrade/IF1001-FeirApp/app/build/intermediates/res/merged/debug/values-v28_values-v28.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/trackingtrade/.gradle/caches/transforms-2/files-2.1/da34a1d2d2b0284feef7672e107f47d0/res/values-v28/values-v28.xml",
-                    "from": {
-                        "startLines": "2,3,4,8",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,447",
-                        "endLines": "2,3,7,11",
-                        "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,442,684"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/trackingtrade/IF1001-FeirApp/app/build/intermediates/res/merged/debug/values-zh-rHK_values-zh-rHK.arsc.flat",
             "map": [
                 {
@@ -1933,6 +1917,22 @@
                         "startOffsets": "3690",
                         "endColumns": "166",
                         "endOffsets": "3852"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/trackingtrade/IF1001-FeirApp/app/build/intermediates/res/merged/debug/values-v28_values-v28.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/trackingtrade/.gradle/caches/transforms-2/files-2.1/da34a1d2d2b0284feef7672e107f47d0/res/values-v28/values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,447",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,442,684"
                     }
                 }
             ]

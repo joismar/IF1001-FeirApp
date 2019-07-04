@@ -1070,6 +1070,7 @@ id button1
 id button2
 id buttonLogout
 id buttonPanel
+id carrinhoCompartilhado
 id carrinhoLista
 id center
 id center_horizontal

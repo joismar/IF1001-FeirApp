@@ -40,6 +40,8 @@ class CarrinhoAdapter(private val produtos: ArrayList<Produto>, private val acti
                 }
                 butremove.setOnClickListener {
                     activity.deletaProduto(position, adapter)
+                    dialog.dismiss()
+
                 }
 
                 dialog.show()

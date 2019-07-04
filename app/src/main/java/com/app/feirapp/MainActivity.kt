@@ -126,10 +126,10 @@ class MainActivity : AppCompatActivity() {
                 input_qtde.setSelection(input_qtde.text.length)
         }
 
-        limiteView.setOnClickListener {
+        // limiteView.setOnClickListener {
             // Abrir popup para definição de valor limite
-            TODO("Popup para definir limite de valor")
-        }
+            // TODO("Popup para definir limite de valor")
+        // }
 
         share.setOnClickListener {
             val gson = Gson()
@@ -137,7 +137,7 @@ class MainActivity : AppCompatActivity() {
 
             // Chamar login para compartilhamento da feira
             // INICIANDO ATIVIDADE
-            val intent = Intent(this, ShareActivity::class.java)
+            val intent = Intent(this, ShareActivity::class.java).apply{}
             // MANDANDO A LISTA
             intent.putExtra("produtosArrayList", jsonCarrinho)
             startActivity(intent)
@@ -224,10 +224,6 @@ class MainActivity : AppCompatActivity() {
             popupMenu.setOnMenuItemClickListener { item ->
 
                 when (item.title.toString()) {
-                    "Salvar Feira" -> {
-                        salvarFeira()
-                        true
-                    }
                     "Limpar" -> {
                         limparFeira()
                         true
@@ -315,10 +311,10 @@ class MainActivity : AppCompatActivity() {
         atualizarTotal()
     }
 
-    fun editaProduto(position: Int, adapter: CarrinhoAdapter) {
-        // Edita o produto
-        TODO("Editar produto")
-    }
+     fun editaProduto(position: Int, adapter: CarrinhoAdapter) {
+         // Edita o produto
+
+     }
 
 
     // RECUPERA PRODUTOS DO ARQUIVO
@@ -346,9 +342,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     // método pra salvar o carrinho
-    private fun salvarFeira() {
-        TODO("Salvar feira em arquivo")
-    }
+    // private fun salvarFeira() {
+        // TODO("Salvar feira em arquivo")
+    // }
 
     // clique na tab carrinho
     private fun _tab1click() {
