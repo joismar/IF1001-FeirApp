@@ -44,17 +44,6 @@ class CarrinhoAdapter(private val produtos: ArrayList<Produto>, private val acti
 
                 dialog.show()
 
-                /*
-                val dialog = AlertDialog.Builder(itemView.context)
-
-                dialog.setTitle("O que deseja fazer?")
-                dialog.setPositiveButton("Deletar Item") { _, _ ->
-                    Log.d("Produtos: ", produtos.toString())
-                    activity.deletaProduto(position, adapter)
-                }
-                dialog.setNegativeButton("Cancelar") { _, _ -> }
-                dialog.create().show()
-                */
             }
         }
     }

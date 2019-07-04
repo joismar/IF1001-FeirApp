@@ -126,17 +126,12 @@ class MainActivity : AppCompatActivity() {
                 input_qtde.setSelection(input_qtde.text.length)
         }
 
-        limiteView.setOnClickListener {
-            // Abrir popup para definição de valor limite
-            TODO("Popup para definir limite de valor")
-        }
-
         share.setOnClickListener {
             // Chamar login para compartilhamento da feira
             // INICIANDO ATIVIDADE
             val intent = Intent(this, ShareActivity::class.java).apply {}
             // MANDANDO A LISTA
-            intent.putParcelableArrayListExtra("produtosArrayList", produtosArrayList)
+            intent.putParcelableArrayListExtra("listaArrayList", listaArrayList)
             startActivity(intent)
         }
 
@@ -226,8 +221,12 @@ class MainActivity : AppCompatActivity() {
                         true
                     }
                     "Limpar" -> {
-                        limparFeira()
-                        true
+                        if (tabadd!!.visibility == View.VISIBLE) {
+                            limparFeira()
+                        } else {
+                            limparLista()
+                        }
+                            true
                     }
                     "Sobre" -> true
                     else -> false
@@ -314,7 +313,6 @@ class MainActivity : AppCompatActivity() {
 
     fun editaProduto(position: Int, adapter: CarrinhoAdapter) {
         // Edita o produto
-        TODO("Editar produto")
     }
 
     // RECUPERA PRODUTOS DO ARQUIVO
@@ -341,9 +339,14 @@ class MainActivity : AppCompatActivity() {
         atualizarTotal()
     }
 
+    private fun limparLista() {
+        listaArrayList.clear()
+        atualizarTotal()
+    }
+
     // método pra salvar o carrinho
     private fun salvarFeira() {
-        TODO("Salvar feira em arquivo")
+        // Salva feira
     }
 
     // clique na tab carrinho

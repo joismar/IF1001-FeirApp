@@ -26,6 +26,7 @@ import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.main.*
 import kotlinx.android.synthetic.main.signin_layout.*
 import com.google.firebase.database.Logger.Level
+import com.google.gson.Gson
 
 
 class ShareActivity : AppCompatActivity() {
@@ -45,21 +46,17 @@ class ShareActivity : AppCompatActivity() {
     // TextView to Show Login User Email and Name.
     lateinit var LoginUserName: TextView
 
-    private var database: FirebaseDatabase? = null
+    private lateinit var database: DatabaseReference
+    private lateinit var auth: FirebaseAuth
+
     private var persistenceInitialized = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.signin_layout)
 
-        database = FirebaseDatabase.getInstance()
-
-        if (!persistenceInitialized) {
-            database!!.setPersistenceEnabled(true)
-            persistenceInitialized = true
-        }
-
-        database!!.setLogLevel(Level.DEBUG)
+        database = FirebaseDatabase.getInstance().reference
+        auth = FirebaseAuth.getInstance()
 
         // altera a cor da status bar
         val w = this.window
@@ -91,10 +88,10 @@ class ShareActivity : AppCompatActivity() {
                 .build()
 
         // Adding Click listener to User Sign in Google button.
-        signInButton.setOnClickListener { UserSignInMethod() }
+        signInButton.setOnClickListener { userSignInMethod() }
 
         // Adding Click Listener to User Sign Out button.
-        SignOutButton.setOnClickListener { UserSignOutFunction() }
+        SignOutButton.setOnClickListener { userSignOutFunction() }
 
     }
 
@@ -107,7 +104,7 @@ class ShareActivity : AppCompatActivity() {
     }
 
     // Sign In function Starts From Here.
-    fun UserSignInMethod() {
+    fun userSignInMethod() {
         // Passing Google Api Client into Intent.
         val intentAuth = Auth.GoogleSignInApi.getSignInIntent(googleApiClient)
 
@@ -123,12 +120,12 @@ class ShareActivity : AppCompatActivity() {
 
             if (googleSignInResult.isSuccess) {
                 val googleSignInAccount = googleSignInResult.signInAccount
-                FirebaseUserAuth(googleSignInAccount)
+                firebaseUserAuth(googleSignInAccount)
             }
         }
     }
 
-    fun FirebaseUserAuth(googleSignInAccount: GoogleSignInAccount?) {
+    fun firebaseUserAuth(googleSignInAccount: GoogleSignInAccount?) {
 
         val authCredential = GoogleAuthProvider.getCredential(googleSignInAccount!!.idToken, null)
 
@@ -142,9 +139,15 @@ class ShareActivity : AppCompatActivity() {
 
                         updateUI(firebaseUser!!)
 
+                        val username = usernameFromEmail(firebaseUser.email!!)
+
+                        // Write new user
+                        writeNewUser(firebaseUser.uid, username, firebaseUser.email)
+
                         userEmail!!.setOnEditorActionListener { v, actionId, event ->
                             if (actionId == EditorInfo.IME_ACTION_SEND) {
-                                compartilharLista(firebaseUser, userEmail.text.toString())
+                                val friendname = usernameFromEmail(userEmail.text.toString())
+                                compartilharLista(username, friendname)
                                 true
                             } else {
                                 false
@@ -157,15 +160,20 @@ class ShareActivity : AppCompatActivity() {
                 }
     }
 
-    private fun compartilharLista(firebaseUser: FirebaseUser, userEmail: String) {
+    private fun compartilharLista(username: String, friendname: String) {
         val main = this.intent
-        val produtosArrayList = main.getParcelableArrayListExtra<Parcelable>("produtosArrayList") as ArrayList<Produto>
+        val listaArrayList = main.getParcelableArrayListExtra<Parcelable>("listaArrayList") as ArrayList<Produto>
 
-        database!!.reference.child("shares").child(firebaseUser.uid).setValue(produtosArrayList)
-        database!!.reference.child("shares").child(firebaseUser.uid).setValue(userEmail)
+        val gson = Gson()
+        val jsonLista = gson.toJson(listaArrayList)
+
+        database.child("shares").child(friendname).child("origem").setValue(username)
+        database.child("shares").child(friendname).child("dados").setValue(jsonLista)
     }
 
-    fun UserSignOutFunction() {
+
+
+    fun userSignOutFunction() {
 
         // Sing Out the User.
         firebaseAuth.signOut()
@@ -181,6 +189,19 @@ class ShareActivity : AppCompatActivity() {
 
         updateUI(currentUser)
 
+    }
+
+    private fun writeNewUser(userId: String, name: String, email: String?) {
+        val user = User(name, email)
+        database.child("users").child(userId).setValue(user)
+    }
+
+    private fun usernameFromEmail(email: String): String {
+        return if (email.contains("@")) {
+            email.split("@".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()[0]
+        } else {
+            email
+        }
     }
 
     private fun updateUI(user: FirebaseUser?) {

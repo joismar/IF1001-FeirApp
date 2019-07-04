@@ -1088,6 +1088,7 @@ id coordinator
 id custom
 id customPanel
 id dark
+id data
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1216,6 +1217,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id share
+id shareRview
 id shortcut
 id showCustom
 id showHome
@@ -1260,6 +1262,7 @@ id textView
 id textView2
 id textView3
 id textView4
+id textView5
 id textViewName
 id text_input_password_toggle
 id textinput_counter
@@ -1295,6 +1298,7 @@ id unlabeled
 id up
 id useLogo
 id userEmail
+id useremail
 id view_offset_helper
 id visible
 id warn1
@@ -1379,6 +1383,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout sharelista
 layout shoplist
 layout signin_layout
 layout support_simple_spinner_dropdown_item
