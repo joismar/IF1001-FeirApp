@@ -334,14 +334,18 @@ class MainActivity : AppCompatActivity() {
     }
     // método pra limpar a feira
     private fun limparFeira() {
+        val prefsEditor = produtosPref?.edit()
         produtosArrayList.clear()
         prefsEditor?.remove("carrinho")
+        prefsEditor?.apply()
         atualizarTotal()
     }
 
     private fun limparLista() {
+        val prefsEditor = produtosPref?.edit()
         listaArrayList.clear()
         prefsEditor?.remove("lista")
+        prefsEditor?.apply()
         atualizarTotal()
     }
 
