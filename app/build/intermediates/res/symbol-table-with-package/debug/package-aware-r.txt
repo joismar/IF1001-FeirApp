@@ -725,7 +725,6 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
-dimen activity_horizontal_margin
 dimen bg_tooltip_padding_bottom
 dimen bg_tooltip_padding_left
 dimen bg_tooltip_padding_right
@@ -1069,6 +1068,7 @@ id botao_remover
 id bottom
 id button1
 id button2
+id buttonLogout
 id buttonPanel
 id carrinhoLista
 id center
@@ -1259,7 +1259,6 @@ id textView
 id textView2
 id textView3
 id textView4
-id textViewEmail
 id textViewName
 id text_input_password_toggle
 id textinput_counter
@@ -1383,6 +1382,8 @@ layout shoplist
 layout signin_layout
 layout support_simple_spinner_dropdown_item
 layout tooltip
+mipmap ic_launcher
+mipmap ic_shopping_app
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
