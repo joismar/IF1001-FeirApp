@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "/home/trackingtrade/IF1001-FeirApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\7e84f57ddadf8158e41e0a39ec249d25\\res\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
-                        "endLines": "2,3,4,5,6,7,8,9,12,17",
-                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,289,290,291,292,325,328",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,20784,20900,21026,21152,22993,23165",
-                        "endLines": "2,3,4,5,289,290,291,292,327,332",
-                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,20895,21021,21147,21275,23160,23498"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\c470f3ca96914f20e0caa63eb633a62d\\res\\values-v21\\values-v21.xml",
+                    "source": "/home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d4b1390155205baf17c409841fc00886/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,10,18,26",
                         "startColumns": "4,4,4,4",
@@ -42,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\55f25e6faa1a9a173aa37eec5aa709ff\\res\\values-v21\\values-v21.xml",
+                    "source": "/home/trackingtrade/.gradle/caches/transforms-2/files-2.1/da34a1d2d2b0284feef7672e107f47d0/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -61,14 +42,14 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "/home/trackingtrade/IF1001-FeirApp/app/src/main/res/values-v21/styles.xml",
                     "from": {
                         "startLines": "2,22,12",
                         "startColumns": "4,4,4",
-                        "startOffsets": "55,1115,583",
+                        "startOffsets": "53,1093,571",
                         "endLines": "10,29,20",
                         "endColumns": "12,12,12",
-                        "endOffsets": "575,1601,1107"
+                        "endOffsets": "565,1572,1087"
                     },
                     "to": {
                         "startLines": "6,234,242",
@@ -77,6 +58,25 @@
                         "endLines": "14,241,250",
                         "endColumns": "12,12,12",
                         "endOffsets": "866,17909,18430"
+                    }
+                },
+                {
+                    "source": "/home/trackingtrade/.gradle/caches/transforms-2/files-2.1/56508d61e365818e284f7fa16b255fa6/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,289,290,291,292,325,328",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,20784,20900,21026,21152,22993,23165",
+                        "endLines": "2,3,4,5,289,290,291,292,327,332",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,20895,21021,21147,21275,23160,23498"
                     }
                 }
             ]

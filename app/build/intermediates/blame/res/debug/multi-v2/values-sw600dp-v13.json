@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\joism\\Documents\\GitHub\\FeirApp-P3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "/home/trackingtrade/IF1001-FeirApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\55f25e6faa1a9a173aa37eec5aa709ff\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "/home/trackingtrade/.gradle/caches/transforms-2/files-2.1/da34a1d2d2b0284feef7672e107f47d0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\joism\\.gradle\\caches\\transforms-2\\files-2.1\\c470f3ca96914f20e0caa63eb633a62d\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "/home/trackingtrade/.gradle/caches/transforms-2/files-2.1/d4b1390155205baf17c409841fc00886/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
